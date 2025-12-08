@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
 }
+
 html {
   font-size: 1rem;
 }
@@ -67,13 +68,13 @@ input[type="file"]:focus-visible {
 }
 
 /* Get rid of top margin on first element in any rich text element */
-.w-richtext > :not(div):first-child,
-.w-richtext > div:first-child > :first-child {
+.w-richtext> :not(div):first-child,
+.w-richtext>div:first-child> :first-child {
   margin-top: 0 !important;
 }
 
 /* Get rid of bottom margin on last element in any rich text element */
-.w-richtext > :last-child,
+.w-richtext> :last-child,
 .w-richtext ol li:last-child,
 .w-richtext ul li:last-child {
   margin-bottom: 0 !important;
@@ -152,6 +153,7 @@ select {
 }
 
 @media screen and (max-width: 991px) {
+
   .hide,
   .hide-tablet {
     display: none !important;
@@ -323,22 +325,18 @@ textarea {
 
 /* Background Tiles Mask */
 .bg-tiles_component {
-  -webkit-mask-image: linear-gradient(
-      to right,
+  -webkit-mask-image: linear-gradient(to right,
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 25%,
       rgba(0, 0, 0, 1) 75%,
-      rgba(0, 0, 0, 0) 100%
-    ),
+      rgba(0, 0, 0, 0) 100%),
     linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
 
-  mask-image: linear-gradient(
-      to right,
+  mask-image: linear-gradient(to right,
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 25%,
       rgba(0, 0, 0, 1) 75%,
-      rgba(0, 0, 0, 0) 100%
-    ),
+      rgba(0, 0, 0, 0) 100%),
     linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
   -webkit-mask-composite: intersect;
   mask-composite: intersect;
@@ -360,8 +358,7 @@ thead {
   background-color: rgb(243, 243, 243);
 }
 
-tbody {
-}
+tbody {}
 
 tr {
   border-width: 1px;
@@ -386,8 +383,7 @@ td {
   text-align: left;
 }
 
-.color-scheme-1 {
-}
+.color-scheme-1 {}
 
 .color-scheme-2 {
   --color-scheme-1--text-primary: var(--color-scheme-2--text-primary);
@@ -423,7 +419,7 @@ td {
 }
 
 /* All paragraph elements inside Hubspot form */
-.hs-form > p {
+.hs-form>p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -434,7 +430,7 @@ td {
 }
 
 /* Max width of fieldset element inside form */
-.hs-form > fieldset {
+.hs-form>fieldset {
   max-width: 100% !important;
 }
 
@@ -451,12 +447,12 @@ td {
 }
 
 /* Checkbox Labels */
-.hs-form-checkbox > label {
+.hs-form-checkbox>label {
   font-weight: 400 !important;
 }
 
 /* Error messages label margin */
-.hs-error-msgs > label {
+.hs-error-msgs>label {
   margin-bottom: 0px !important;
 }
 
@@ -473,7 +469,7 @@ td {
   outline: 2px solid #111;
 }
 
-.hs-form-booleancheckbox-display > span {
+.hs-form-booleancheckbox-display>span {
   margin-left: 0 !important;
 }
 
@@ -521,21 +517,17 @@ td {
   animation: light 2s ease-in-out infinite alternate;
 }
 
-.products_accordion_item.is-active-accordion
-  .products_accordion_icon_line-vertical {
+.products_accordion_item.is-active-accordion .products_accordion_icon_line-vertical {
   transform: rotate(90deg);
 }
 
-.products_accordion_item.is-active-accordion
-  .products_accordion_icon_line-horizontal {
+.products_accordion_item.is-active-accordion .products_accordion_icon_line-horizontal {
   transform: rotate(180deg);
 }
 
-.products_accordion_item.is-active-accordion
-  .products_accordion_indicator-light {
+.products_accordion_item.is-active-accordion .products_accordion_indicator-light {
   background-color: var(--_primitives---colors--cyan-light);
-  box-shadow: 0 0 var(--_size---0-25rem) 0
-    hsla(214.6285714285714, 93.58%, 63.33%, 0.5);
+  box-shadow: 0 0 var(--_size---0-25rem) 0 hsla(214.6285714285714, 93.58%, 63.33%, 0.5);
 }
 
 .integrations_item:hover .integrations_border {
@@ -594,32 +586,24 @@ td {
   --_primitives---colors--blue-dark: #223566;
   --_primitives---colors--blue: #4a94f9;
   --_primitives---opacity--neutral-darkest-15: #04070c26;
-  --_ui-styles---radius--small\<deleted\|relume-variable-radius-small\>: var(
-    --_size---xxsmall
-  );
+  --_ui-styles---radius--small\<deleted\|relume-variable-radius-small\>: var(--_size---xxsmall);
   --_primitives---opacity--neutral-darkest-5: #04070c0d;
   --_primitives---colors--neutral-0: #04070c;
   --_primitives---opacity--neutral-darkest-60: #04070c99;
   --_primitives---colors--neutral-100: #fdfbff;
   --_ui-styles---stroke--border-width\<deleted\|relume-variable-border-width\>: 1px;
   --color-scheme-1--border-secondary: var(--_primitives---colors--neutral-10);
-  --_ui-styles---radius--medium\<deleted\|relume-variable-radius-medium\>: var(
-    --_size---xsmall
-  );
+  --_ui-styles---radius--medium\<deleted\|relume-variable-radius-medium\>: var(--_size---xsmall);
   --color-scheme-1--foreground: var(--_primitives---colors--blue-darker);
   --_typography---font-styles--tag: "DM Mono", Arial, sans-serif;
   --_primitives---colors--neutral-10: #181c22;
-  --background-color--background-secondary\<deleted\|relume-variable-background-color-2\>: var(
-    --base-color-neutral--neutral-lightest\<deleted\|relume-variable-color-neutral-3\>
-  );
+  --background-color--background-secondary\<deleted\|relume-variable-background-color-2\>: var(--base-color-neutral--neutral-lightest\<deleted\|relume-variable-color-neutral-3\>);
   --color-scheme-1--background: var(--_primitives---colors--blue-darkest);
   --_primitives---opacity--transparent: transparent;
   --_primitives---colors--blue-lighter: #dae9fd;
   --_primitives---colors--blue-light: #80b4fa;
   --color-scheme-1--text-secondary: var(--_primitives---colors--neutral-80);
-  --_ui-styles---radius--large\<deleted\|relume-variable-radius-large\>: var(
-    --_size---small
-  );
+  --_ui-styles---radius--large\<deleted\|relume-variable-radius-large\>: var(--_size---small);
   --_primitives---colors--neutral-90: #e0e2ec;
   --_primitives---colors--blue-darker: #0d182b;
   --_primitives---colors--neutral-20: #2d3038;
@@ -663,4 +647,13 @@ td {
   --color-scheme-2--border-secondary: var(--_primitives---colors--neutral-90);
   --color-scheme-2--accent-secondary: var(--_primitives---colors--cyan-dark);
   --base-color-neutral--neutral-lightest\<deleted\|relume-variable-color-neutral-3\>: #eee;
+}
+
+
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+}
+a{
+  text-decoration: none !important;
 }
