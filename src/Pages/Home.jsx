@@ -1,4 +1,5 @@
 import React from "react";
+import { mainLogo, heroImg } from "../Components/Image";
 
 const Home = () => {
   return (
@@ -31,12 +32,8 @@ const Home = () => {
                 >
                   <img
                     sizes="(max-width: 479px) 98vw, (max-width: 767px) 99vw, (max-width: 1024px) 100vw, 1024px"
-                    srcSet="
-                    https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ebaa6ba00e7b767d1db02e_logo-p-500.png  500w,
-                    https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ebaa6ba00e7b767d1db02e_logo.avif      1024w
-                  "
                     alt=""
-                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ebaa6ba00e7b767d1db02e_logo.avif"
+                    src={mainLogo}
                     loading="lazy"
                     className="navbar_logo is-base"
                   />
@@ -2428,7 +2425,7 @@ const Home = () => {
                       </div>
                     </div>
                     <img
-                      src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68f261cb405a2bb176cbc719_Frame%2017.avif"
+                      src={heroImg}
                       loading="lazy"
                       slide-in-header=""
                       alt=""
@@ -14844,6 +14841,6 @@ const Home = () => {
       </div>
     </>
   );
-};
+};  
 
 export default Home;
