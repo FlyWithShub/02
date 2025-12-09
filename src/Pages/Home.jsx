@@ -1,5 +1,19 @@
 import React from "react";
-import { mainLogo, heroImg, HomeVid1, CronexImg } from "../Components/Image";
+import {
+  mainLogo,
+  heroImg,
+  HomeVid2,
+  HomeVid1,
+  CronexImg,
+} from "../Components/Image";
+
+import Accordion from "@mui/material/Accordion";
+import AccordionActions from "@mui/material/AccordionActions";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Button from "@mui/material/Button";
 
 const Home = () => {
   return (
@@ -2235,151 +2249,6 @@ const Home = () => {
                                         </div>
                                       </div>{" "}
                                     </a>
-                                    <a
-                                      data-w-tab="Tab 2"
-                                      className="data-fabrics_tab_link w-inline-block w-tab-link"
-                                    >
-                                      <div className="data-fabrics_tab_content">
-                                        <div className="spacer-xsmall"></div>
-                                        <h3 className="heading-style-h6 text-color-primary">
-                                          Optimize SIEM &amp; Data Storage
-                                        </h3>
-                                        <div className="data-fabrics_tab_details">
-                                          <div className="spacer-small"></div>
-                                          <p className="text-color-secondary">
-                                            Only pay SIEM licensing for data you
-                                            actually use. Leverage AI-based
-                                            filtering to automatically route
-                                            less-critical data to low-cost
-                                            storage.
-                                          </p>
-                                          <div className="spacer-small"></div>
-                                          <div className="data-fabrics_tab_list">
-                                            <div className="data-fabrics_tab_item">
-                                              <div className="heading-style-h6 text-color-primary">
-                                                50%+
-                                              </div>
-                                              <div className="spacer-0-75rem"></div>
-                                              <div className="text-size-tiny text-color-secondary">
-                                                Reduced security storage and
-                                                licensing costs
-                                              </div>
-                                            </div>
-                                            <div className="data-fabrics_tab_item">
-                                              <div className="heading-style-h6 text-color-primary">
-                                                14 Days
-                                              </div>
-                                              <div className="spacer-0-75rem"></div>
-                                              <div className="text-size-tiny text-color-secondary">
-                                                Guaranteed time-to-value from
-                                                deployment
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div className="spacer-xsmall"></div>
-                                        <div className="data-fabrics_tab_progress-track">
-                                          <div className="data-fabrics_tab_progress"></div>
-                                        </div>
-                                      </div>{" "}
-                                    </a>
-                                    <a
-                                      data-w-tab="Tab 3"
-                                      className="data-fabrics_tab_link w-inline-block w-tab-link"
-                                    >
-                                      <div className="data-fabrics_tab_content">
-                                        <div className="spacer-xsmall"></div>
-                                        <h3 className="heading-style-h6 text-color-primary">
-                                          Real-Time Pipeline Visibility &amp;
-                                          Insights
-                                        </h3>
-                                        <div className="data-fabrics_tab_details">
-                                          <div className="spacer-small"></div>
-                                          <p className="text-color-secondary">
-                                            Maintain continuous visibility with
-                                            24/7 pipeline health monitoring,
-                                            automatic anomaly alerts, and
-                                            built-in failover &amp; resiliency.
-                                          </p>
-                                          <div className="spacer-small"></div>
-                                          <div className="data-fabrics_tab_list">
-                                            <div className="data-fabrics_tab_item">
-                                              <div className="heading-style-h6 text-color-primary">
-                                                100%
-                                              </div>
-                                              <div className="spacer-0-75rem"></div>
-                                              <div className="text-size-tiny text-color-secondary">
-                                                Lossless and resilient data
-                                                collection
-                                              </div>
-                                            </div>
-                                            <div className="data-fabrics_tab_item">
-                                              <div className="heading-style-h6 text-color-primary">
-                                                80%+
-                                              </div>
-                                              <div className="spacer-0-75rem"></div>
-                                              <div className="text-size-tiny text-color-secondary">
-                                                Improved telemetry coverage and
-                                                actionable insights
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div className="spacer-xsmall"></div>
-                                        <div className="data-fabrics_tab_progress-track">
-                                          <div className="data-fabrics_tab_progress"></div>
-                                        </div>
-                                      </div>{" "}
-                                    </a>
-                                    <a
-                                      data-w-tab="Tab 4"
-                                      className="data-fabrics_tab_link w-inline-block w-tab-link"
-                                    >
-                                      <div className="data-fabrics_tab_content">
-                                        <div className="spacer-xsmall"></div>
-                                        <h3 className="heading-style-h6 text-color-primary">
-                                          Complete Data Ownership &amp;
-                                          Governance
-                                        </h3>
-                                        <div className="data-fabrics_tab_details">
-                                          <div className="spacer-small"></div>
-                                          <p className="text-color-secondary">
-                                            Take full ownership of your data
-                                            with AI-powered metadata tagging,
-                                            automated data quarantine for
-                                            sensitive information, and complete
-                                            data sovereignty.
-                                          </p>
-                                          <div className="spacer-small"></div>
-                                          <div className="data-fabrics_tab_list">
-                                            <div className="data-fabrics_tab_item">
-                                              <div className="heading-style-h6 text-color-primary">
-                                                99%
-                                              </div>
-                                              <div className="spacer-0-75rem"></div>
-                                              <div className="text-size-tiny text-color-secondary">
-                                                Data visibility, eliminating
-                                                blind spots
-                                              </div>
-                                            </div>
-                                            <div className="data-fabrics_tab_item">
-                                              <div className="heading-style-h6 text-color-primary">
-                                                50%
-                                              </div>
-                                              <div className="spacer-0-75rem"></div>
-                                              <div className="text-size-tiny text-color-secondary">
-                                                Lower data management and
-                                                security ops costs
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div className="spacer-xsmall"></div>
-                                        <div className="data-fabrics_tab_progress-track">
-                                          <div className="data-fabrics_tab_progress"></div>
-                                        </div>
-                                      </div>
-                                    </a>
                                   </div>
                                   <div className="home_tab_tabs-content w-tab-content">
                                     <div
@@ -2407,11 +2276,13 @@ const Home = () => {
                                     muted
                                     currentheight="100%"
                                     playsInline
+                                    style={{
+                                      objectFit: "cover",
+                                      height: "100%",
+                                      width: "100%",
+                                    }}
                                   >
-                                    <source
-                                      src="https://github.com/rahulxchanana/databahn/raw/refs/heads/main/Security_Compressed.mp4"
-                                      type="video/mp4"
-                                    />
+                                    <source src={HomeVid2} type="video/mp4" />
                                   </video>
                                 </div>
                               </div>
@@ -12239,34 +12110,31 @@ const Home = () => {
                             className="w-layout-grid faq_list"
                           >
                             <div className="component_code w-embed w-script"></div>
-                            <div
-                              fs-accordion-element="accordion"
-                              slide-in=""
-                              className="faq_item"
-                            >
-                              <div
-                                aria-expanded="false"
-                                fs-accordion-element="trigger"
-                                tabIndex="0"
-                                role="button"
+
+                            <Accordion defaultExpanded className="faq_item">
+                              <AccordionSummary
+                                aria-controls="panel3-content"
+                                id="panel3-header"
                                 className="faq_question"
                               >
-                                <div className="faq_question-content">
-                                  <h3 className="text-size-large">
-                                    What is a Data Fabric / Data Pipeline
-                                    Management Platform?
-                                    <br />
-                                  </h3>
-                                  <div className="faq_icon-wrappper">
-                                    <div
-                                      fs-accordion-element="arrow"
-                                      className="faq_icon"
-                                    >
-                                      <div className="faq_icon_line-horizontal"></div>
-                                      <div className="faq_icon_line-vertical"></div>
+                                <Typography component="span">
+                                  <div className="faq_question-content">
+                                    <h3 className="text-size-large">
+                                      What makes DataBahn different from
+                                      traditional DPM tools and platforms?
+                                      <br />
+                                    </h3>
+                                    <div className="faq_icon-wrappper">
+                                      <div
+                                        fs-accordion-element="arrow"
+                                        className="faq_icon"
+                                      >
+                                        <div className="faq_icon_line-horizontal"></div>
+                                        <div className="faq_icon_line-vertical"></div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
+                                </Typography>
                                 <img
                                   src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question.avif"
                                   loading="lazy"
@@ -12279,50 +12147,41 @@ const Home = () => {
                                   alt=""
                                   className="faq_question-background"
                                 />
-                              </div>
-                              <div
-                                fs-accordion-element="content"
-                                className="faq_answer"
-                              >
+                              </AccordionSummary>
+                              <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  DPM platforms are evaluated by how many
-                                  sources and destinations they can manage and
-                                  to what degree they can optimize the volume of
-                                  data being orchestrated through them.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Suspendisse malesuada lacus
+                                  ex, sit amet
                                 </p>
-                                <div className="spacer-small"></div>
-                                <div className="faq_gradient"></div>
-                              </div>
-                            </div>
-                            <div
-                              fs-accordion-element="accordion"
-                              slide-in=""
-                              className="faq_item"
-                            >
-                              <div
-                                aria-expanded="false"
-                                fs-accordion-element="trigger"
-                                tabIndex="0"
-                                role="button"
+                              </AccordionDetails>
+                            </Accordion>
+
+                            <Accordion className="faq_item">
+                              <AccordionSummary
+                                aria-controls="panel4-content"
+                                id="panel4-header"
                                 className="faq_question"
                               >
-                                <div className="faq_question-content">
-                                  <h3 className="text-size-large">
-                                    What makes DataBahn different from
-                                    traditional DPM tools and platforms?
-                                    <br />
-                                  </h3>
-                                  <div className="faq_icon-wrappper">
-                                    <div
-                                      fs-accordion-element="arrow"
-                                      className="faq_icon"
-                                    >
-                                      <div className="faq_icon_line-horizontal"></div>
-                                      <div className="faq_icon_line-vertical"></div>
+                                <Typography component="span">
+                                  <div className="faq_question-content">
+                                    <h3 className="text-size-large">
+                                      What makes DataBahn different from
+                                      traditional DPM tools and platforms?
+                                      <br />
+                                    </h3>
+                                    <div className="faq_icon-wrappper">
+                                      <div
+                                        fs-accordion-element="arrow"
+                                        className="faq_icon"
+                                      >
+                                        <div className="faq_icon_line-horizontal"></div>
+                                        <div className="faq_icon_line-vertical"></div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
+                                </Typography>
                                 <img
                                   src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question.avif"
                                   loading="lazy"
@@ -12335,70 +12194,40 @@ const Home = () => {
                                   alt=""
                                   className="faq_question-background"
                                 />
-                              </div>
-                              <div
-                                fs-accordion-element="content"
-                                className="faq_answer"
-                              >
+                              </AccordionSummary>
+                              <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  DataBahn goes beyond being a data pipeline by
-                                  delivering a full-stack data management and AI
-                                  transformation solution. We are the leading
-                                  DPM solution (maximum number of integrations,
-                                  most effective volume reductions, etc.) and
-                                  also deliver AI-powered improvements that make
-                                  us best-in-class.
-                                  <br />
-                                  <br />
-                                  Our Agentic AI automates data engineering
-                                  tasks by autonomously detecting log sources,
-                                  creating pipelines, and parsing structured and
-                                  unstructured data from standard and custom
-                                  applications. It also tracks, monitors, and
-                                  manages data flow, using backups and flagging
-                                  any errors to ensure the data flows through.
-                                  <br />
-                                  <br />
-                                  Our system collates, correlates, and tags the
-                                  data to enable simplified access, and creates
-                                  a database that enables custom AI agent or AI
-                                  application development.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Suspendisse malesuada lacus
+                                  ex, sit amet
                                 </p>
-                                <div className="spacer-small"></div>
-                                <div className="faq_gradient"></div>
-                              </div>
-                            </div>
-                            <div
-                              fs-accordion-element="accordion"
-                              slide-in=""
-                              className="faq_item"
-                            >
-                              <div
-                                aria-expanded="false"
-                                fs-accordion-element="trigger"
-                                tabIndex="0"
-                                role="button"
+                              </AccordionDetails>
+                            </Accordion>
+                            <Accordion className="faq_item">
+                              <AccordionSummary
+                                aria-controls="panel5-content"
+                                id="panel5-header"
                                 className="faq_question"
                               >
-                                <div className="faq_question-content">
-                                  <h3 className="text-size-large">
-                                    Will the volume control and reduction of my
-                                    tools reduce my tools&#x27; effectiveness?
-                                    Is the volume reduction something I can
-                                    control?
-                                    <br />
-                                  </h3>
-                                  <div className="faq_icon-wrappper">
-                                    <div
-                                      fs-accordion-element="arrow"
-                                      className="faq_icon"
-                                    >
-                                      <div className="faq_icon_line-horizontal"></div>
-                                      <div className="faq_icon_line-vertical"></div>
+                                <Typography component="span">
+                                  <div className="faq_question-content">
+                                    <h3 className="text-size-large">
+                                      What makes DataBahn different from
+                                      traditional DPM tools and platforms?
+                                      <br />
+                                    </h3>
+                                    <div className="faq_icon-wrappper">
+                                      <div
+                                        fs-accordion-element="arrow"
+                                        className="faq_icon"
+                                      >
+                                        <div className="faq_icon_line-horizontal"></div>
+                                        <div className="faq_icon_line-vertical"></div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
+                                </Typography>
                                 <img
                                   src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question.avif"
                                   loading="lazy"
@@ -12411,34 +12240,62 @@ const Home = () => {
                                   alt=""
                                   className="faq_question-background"
                                 />
-                              </div>
-                              <div
-                                fs-accordion-element="content"
-                                className="faq_answer"
-                              >
+                              </AccordionSummary>
+                              <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  Our volume reduction functionality is
-                                  completely under the control of our users.
-                                  There are two modules - a library of volume
-                                  reduction rules that will reduce SIEM and
-                                  observability data.
-                                  <br />
-                                  Some of these rules are absolutely guaranteed
-                                  not to impact their functioning (data
-                                  deduplication, for example) while others are
-                                  based on our collective experience of being
-                                  less relevant or useful.
-                                  <br />
-                                  <br />
-                                  Users can absolutely control which data goes
-                                  where, and opt to keep sending those volumes
-                                  to their SIEM or Observability solution.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Suspendisse malesuada lacus
+                                  ex, sit amet
                                 </p>
+                              </AccordionDetails>
+                            </Accordion>
+                            <Accordion className="faq_item">
+                              <AccordionSummary
+                                aria-controls="panel6-content"
+                                id="panel6-header"
+                                className="faq_question"
+                              >
+                                <Typography component="span">
+                                  <div className="faq_question-content">
+                                    <h3 className="text-size-large">
+                                      What makes DataBahn different from
+                                      traditional DPM tools and platforms?
+                                      <br />
+                                    </h3>
+                                    <div className="faq_icon-wrappper">
+                                      <div
+                                        fs-accordion-element="arrow"
+                                        className="faq_icon"
+                                      >
+                                        <div className="faq_icon_line-horizontal"></div>
+                                        <div className="faq_icon_line-vertical"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </Typography>
+                                <img
+                                  src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question.avif"
+                                  loading="lazy"
+                                  sizes="(max-width: 1260px) 100vw, 1260px"
+                                  srcSet="
+                                  https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question-p-500.avif  500w,
+                                  https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question-p-800.avif  800w,
+                                  https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ecbe5f1ce4bbd10bbcf1c9_Question.avif       1260w
+                                "
+                                  alt=""
+                                  className="faq_question-background"
+                                />
+                              </AccordionSummary>
+                              <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
-                                <div className="faq_gradient"></div>
-                              </div>
-                            </div>
+                                <p className="text-color-secondary">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Suspendisse malesuada lacus
+                                  ex, sit amet
+                                </p>
+                              </AccordionDetails>
+                            </Accordion>
                           </div>
                         </div>
                       </div>
@@ -13245,102 +13102,6 @@ const Home = () => {
 
                     {/* Right Menu Section */}
                     <div className="footer_menu-wrapper">
-                      <div>
-                        <div className="footer_link-list">
-                          <a href="/platform" className="footer_label">
-                            Platform
-                          </a>
-                          <a href="/products" className="footer_label">
-                            Products
-                          </a>
-                        </div>
-
-                        <div className="spacer-xsmall"></div>
-
-                        <div className="footer_link-list">
-                          <a
-                            className="text-style-link text-weight-semibold text-color-primary"
-                            href="/products/smart-edge"
-                          >
-                            Smart Edge
-                          </a>
-                          <a
-                            className="text-style-link text-weight-semibold text-color-primary"
-                            href="/products/highway"
-                          >
-                            Highway
-                          </a>
-                          <a
-                            className="text-style-link text-weight-semibold text-color-primary"
-                            href="/products/cruz-ai-agent-for-security-data"
-                          >
-                            Cruz
-                          </a>
-                          <a
-                            className="text-style-link text-weight-semibold text-color-primary"
-                            href="/products/reef-ai-security-insights-layer"
-                          >
-                            Reef
-                          </a>
-                        </div>
-                      </div>
-
-                      <div>
-                        <div className="text-size-small text-weight-medium text-style-allcaps">
-                          Data Fabrics
-                        </div>
-                        <div className="spacer-xsmall"></div>
-
-                        <div className="footer_link-list">
-                          <a
-                            className="text-style-link text-weight-semibold text-color-primary"
-                            href="/data-fabrics/security-data-fabric"
-                          >
-                            Security Data Fabric
-                          </a>
-                        </div>
-                      </div>
-
-                      <div>
-                        <a href="/usecases" className="footer_label">
-                          Use cases
-                        </a>
-                        <div className="spacer-xsmall"></div>
-
-                        <div className="footer_link-list">
-                          <a
-                            href="/use-cases/siem-cost-reduction"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            SIEM Cost Reduction
-                          </a>
-                          <a
-                            href="/use-cases/siem-migration"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            SIEM Migration
-                          </a>
-                          <a
-                            href="/use-cases/siem-evaluation"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            SIEM Evaluation
-                          </a>
-                          <a
-                            href="/use-cases/observability-optimization"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            Observability Optimization
-                          </a>
-                          <a
-                            href="/use-cases/iot-ot-integration"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            IoT/OT Integration
-                          </a>
-                        </div>
-                      </div>
-
                       <div>
                         <div className="text-size-small text-weight-medium text-style-allcaps">
                           Integrations

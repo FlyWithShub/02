@@ -4738,7 +4738,7 @@ figcaption {
   position: relative;
 }
 
-.faq_list {
+.faq_component .faq_list {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   grid-template-rows: auto;
@@ -4748,8 +4748,9 @@ figcaption {
   display: grid;
 }
 
-.faq_item {
-  border: 1px solid var(--_primitives---colors--neutral-10);
+.faq_component .faq_item {
+  /* border: 1px solid var(--_primitives---colors--neutral-10); */
+  border: 1px solid #4a94f980;
   border-radius: var(--_size---xxsmall);
   background-color: var(--_primitives---colors--blue-darkest);
   background-image: linear-gradient(#080e1880, #080e1880);
@@ -4758,13 +4759,14 @@ figcaption {
   align-items: stretch;
   transition: border-color 0.2s;
   overflow: hidden;
+  color: unset;
 }
 
-.faq_item:hover {
+.faq_component .faq_item:hover {
   border-color: #4a94f980;
 }
 
-.faq_question {
+.faq_component .faq_question {
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
   border-bottom: 1px solid var(--_primitives---colors--neutral-10);
@@ -4776,7 +4778,7 @@ figcaption {
   position: relative;
 }
 
-.faq_icon-wrappper {
+.faq_component .faq_icon-wrappper {
   background-image: linear-gradient(180deg,
       var(--color-scheme-1--border-secondary),
       var(--_primitives---opacity--transparent));
@@ -4786,7 +4788,7 @@ figcaption {
   display: flex;
 }
 
-.faq_answer {
+.faq_component .faq_answer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   transition: max-height 1s cubic-bezier(0.77, 0, 0.175, 1);
@@ -12052,12 +12054,12 @@ figcaption {
 
 .partner-benefits_card {
   background-color: #0e1622;
-  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b3e087212fb826f70151_texture%20\(
+  /* background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b3e087212fb826f70151_texture%20\(
  1\
 ).avif),
     url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b40b09b9b2726a536f07_Mask%20group%20\(
  2\
-).avif);
+).avif); */
   background-position: 0 0, 0 0;
   background-size: cover, cover;
   border: 1.5px solid #151d29;
@@ -16284,6 +16286,25 @@ figcaption {
 #cta.w-node-_8483186e-5dbe-3af9-b46f-b339b4cf6062-1a1d3e40 {
   grid-area: span 1 / span 3 / span 1 / span 3;
 }
+
+span.MuiAccordionSummary-content.Mui-expanded.MuiAccordionSummary-contentGutters.css-yfrx4k-MuiAccordionSummary-content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.css-yfrx4k-MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+
+.css-rizt0-MuiTypography-root {
+  width: 100%;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 991px) {
 
