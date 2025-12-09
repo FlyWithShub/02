@@ -1,5 +1,5 @@
 import React from "react";
-import { mainLogo, heroImg } from "../Components/Image";
+import { mainLogo, heroImg, CronexImg } from "../Components/Image";
 
 const Home = () => {
   return (
@@ -46,842 +46,15 @@ const Home = () => {
                 </a>
                 <nav role="navigation" className="navbar_menu w-nav-menu">
                   <div className="navbar_menu-links">
-                    <div
-                      data-delay="300"
-                      data-hover="true"
-                      data-w-id="05ed5d19-41a7-167f-9861-3ffdd60620d1"
-                      className="navbar_menu-dropdown w-dropdown"
-                    >
-                      <div className="navbar_dropdown-toggle w-dropdown-toggle">
-                        <div>Products</div>
-                        <div className="dropdown-chevron w-embed">
-                          <svg
-                            currentwidth=" 100%"
-                            currentheight=" 100%"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <nav className="navbar_dropdown-list w-dropdown-list">
-                        <div className="navbar_dropdown-column">
-                          <div className="navbar_dropdown-column">
-                            <div className="navbar_dropdown-link-list">
-                              <a
-                                href="/platform"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    Platform
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="spacer-xsmall"></div>
-                            <a href="/products" className="navbar_label">
-                              Products
-                            </a>
-                            <div className="spacer-xxsmall"></div>
-                            <div className="navbar_dropdown-link-list">
-                              <a
-                                href="/products/smart-edge"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    Smart Edge
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/products/highway"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">Highway</div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/products/cruz-ai-agent-for-security-data"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">Cruz</div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/products/reef-ai-security-insights-layer"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">Reef</div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68073900553fde64672694da_navbar_dropdown_background.avif"
-                          loading="lazy"
-                          alt=""
-                          className="navbar_dropdown_background"
-                        />
-                      </nav>
-                    </div>
-                    <div
-                      data-delay="200"
-                      data-hover="true"
-                      data-w-id="4cc1af84-3731-6dda-2c8d-af9c68a188a5"
-                      className="navbar_menu-dropdown w-dropdown"
-                    >
-                      <div className="navbar_dropdown-toggle w-dropdown-toggle">
-                        <div>Solutions</div>
-                        <div className="dropdown-chevron w-embed">
-                          <svg
-                            currentwidth=" 100%"
-                            currentheight=" 100%"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <nav className="navbar_dropdown-list is-2col w-dropdown-list">
-                        <img
-                          src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68073900553fde64672694da_navbar_dropdown_background.avif"
-                          loading="lazy"
-                          alt=""
-                          className="navbar_dropdown_background"
-                        />
-                        <div className="navbar_dropdown-content">
-                          <div className="navbar_dropdown-column">
-                            <div className="navbar_label">Data Fabrics</div>
-                            <div className="spacer-xxsmall"></div>
-                            <div className="navbar_dropdown-link-list">
-                              <a
-                                href="/data-fabrics/security-data-fabric"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    Security Data Fabric
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/data-fabrics/application-data-fabric"
-                                className="navbar_dropdown-link hide w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <p className="text-size-small hide-mobile-landscape hide">
-                                    Lorem ipsum dolor sit amet consectetur elit
-                                  </p>
-                                  <div className="text-size-small">
-                                    Application Data Fabric
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/use-cases/iot-ot-integration"
-                                className="navbar_dropdown-link hide w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <p className="text-size-small hide-mobile-landscape hide">
-                                    Lorem ipsum dolor sit amet consectetur elit
-                                  </p>
-                                  <div className="text-size-small">
-                                    IoT/OT Data Fabric
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/data-fabrics/observability-data-fabric"
-                                className="navbar_dropdown-link hide w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <p className="text-size-small hide-mobile-landscape hide">
-                                    Lorem ipsum dolor sit amet consectetur elit
-                                  </p>
-                                  <div className="text-size-small">
-                                    Observability Data Fabric
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                          <div className="navbar_dropdown-column">
-                            <a href="/usecases" className="navbar_label">
-                              Use cases
-                            </a>
-                            <div className="spacer-xxsmall"></div>
-                            <div className="navbar_dropdown-link-list">
-                              <a
-                                href="/use-cases/siem-cost-reduction"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    SIEM Cost Reduction
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/use-cases/siem-migration"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    SIEM Migration
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/use-cases/siem-evaluation"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    SIEM Evaluation
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/use-cases/observability-optimization"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    Observability Optimization
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/use-cases/iot-ot-integration"
-                                className="navbar_dropdown-link w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    IoT/OT Integration
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall hide w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/integrations/amazon-security-lake"
-                                className="navbar_dropdown-link hide w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    IoT/OT Data Collection
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>{" "}
-                              </a>
-                              <a
-                                href="/integrations/amazon-security-lake"
-                                className="navbar_dropdown-link hide w-inline-block"
-                              >
-                                <div className="navbar_icon-wrapper">
-                                  <div className="icon-embed-xsmall w-embed">
-                                    <svg
-                                      currentwidth="currentwidth"
-                                      currentheight="currentheight"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                        fill="currentColor"
-                                      ></path>
-                                    </svg>
-                                  </div>
-                                </div>
-                                <div className="navbar_text-wrapper">
-                                  <div className="text-size-small">
-                                    Insights from Data
-                                  </div>
-                                </div>
-                                <div className="icon-embed-xxsmall w-embed">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    currentwidth="100%"
-                                    currentheight="100%"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="currentColor"
-                                      d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
+                    <a href="/partners" className="navbar_link">
+                      Home
+                    </a>
+                    <a href="/partners" className="navbar_link">
+                      About
+                    </a>
+
+
+
                     <div
                       data-delay="200"
                       data-hover="true"
@@ -889,7 +62,7 @@ const Home = () => {
                       className="navbar_menu-dropdown w-dropdown"
                     >
                       <div className="navbar_dropdown-toggle w-dropdown-toggle">
-                        <div>Integrations</div>
+                        <div>Services</div>
                         <div className="dropdown-chevron w-embed">
                           <svg
                             currentwidth=" 100%"
@@ -1368,491 +541,15 @@ const Home = () => {
                         </div>
                       </nav>
                     </div>
-                    <div
-                      data-delay="200"
-                      data-hover="true"
-                      data-w-id="4fc373e7-cfd1-7087-ab9f-efa0afcd31e3"
-                      className="navbar_menu-dropdown w-dropdown"
-                    >
-                      <div className="navbar_dropdown-toggle w-dropdown-toggle">
-                        <div>Resources</div>
-                        <div className="dropdown-chevron w-embed">
-                          <svg
-                            currentwidth=" 100%"
-                            currentheight=" 100%"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <nav className="navbar_dropdown-list w-dropdown-list">
-                        <img
-                          src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68073900553fde64672694da_navbar_dropdown_background.avif"
-                          loading="lazy"
-                          alt=""
-                          className="navbar_dropdown_background"
-                        />
-                        <div className="navbar_dropdown-column">
-                          <div className="navbar_dropdown-link-list">
-                            <a
-                              href="/case-studies"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">
-                                  Case Studies
-                                </div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/blog"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">Blogs</div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/solution-briefs"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">
-                                  Solution Briefs
-                                </div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/webinars"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">Webinars</div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/roi-calculator#calculator"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">
-                                  ROI Calculator
-                                </div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/siem-evaluation-checklist-scoring-matrix"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">
-                                  SIEM Evaluation Checklist
-                                </div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                    <div
-                      data-delay="200"
-                      data-hover="true"
-                      data-w-id="6aaa4d03-b463-9a5c-3a6c-0fd6e9771583"
-                      className="navbar_menu-dropdown w-dropdown"
-                    >
-                      <div className="navbar_dropdown-toggle w-dropdown-toggle">
-                        <div>Company</div>
-                        <div className="dropdown-chevron w-embed">
-                          <svg
-                            currentwidth=" 100%"
-                            currentheight=" 100%"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <nav className="navbar_dropdown-list w-dropdown-list">
-                        <img
-                          src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68073900553fde64672694da_navbar_dropdown_background.avif"
-                          loading="lazy"
-                          alt=""
-                          className="navbar_dropdown_background"
-                        />
-                        <div className="navbar_dropdown-column">
-                          <div className="navbar_dropdown-link-list">
-                            <a
-                              href="/about-us"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">About Us</div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/leadership"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">
-                                  Leadership
-                                </div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>{" "}
-                            </a>
-                            <a
-                              href="/newsroom"
-                              className="navbar_dropdown-link w-inline-block"
-                            >
-                              <div className="navbar_icon-wrapper">
-                                <div className="icon-embed-xsmall w-embed">
-                                  <svg
-                                    currentwidth="currentwidth"
-                                    currentheight="currentheight"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      clipRule="evenodd"
-                                      d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                      fill="currentColor"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div className="navbar_text-wrapper">
-                                <div className="text-size-small">Newsroom</div>
-                              </div>
-                              <div className="icon-embed-xxsmall hide w-embed">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  role="img"
-                                  className="iconify iconify--ic"
-                                  currentwidth="100%"
-                                  currentheight="100%"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    fill="currentColor"
-                                    d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                  ></path>
-                                </svg>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
                     <a href="/partners" className="navbar_link">
-                      Partners
+                      Projects
                     </a>
+                    <a href="/partners" className="navbar_link">
+                      Blogs
+                    </a>
+
+
+
                   </div>
                   <div className="navbar_menu-buttons">
                     <div className="navbar_button is-base">
@@ -1862,7 +559,7 @@ const Home = () => {
                         className="button-primary w-inline-block"
                       >
                         <div className="button_content">
-                          <div className="text-size-regular">Book a Demo</div>
+                          <div className="text-size-regular">Get in Touch</div>
                           <div className="arrow">
                             <div className="icon-embed-custom1 w-embed">
                               <svg
@@ -2271,7 +968,7 @@ const Home = () => {
                       <div className="home_header_content">
                         <div className="padding-section-large">
                           <div slide-in-header="" className="tag">
-                            <div>DATA PIPELINE MANAGEMENT</div>
+                            <div><small>Innovation. Intelligence. Impact.</small></div>
                             <div className="tag_button hide">
                               <div className="icon-embed-custom1 w-embed">
                                 <svg
@@ -2297,20 +994,14 @@ const Home = () => {
                             slide-in-header=""
                             className="heading-style-h1 text-gradient-horizontal"
                           >
-                            Move your data with
+                            Building the Digital<br></br>
                             <span className="text-gradient-blue">
-                              intelligence
+                              Future of Finance
                             </span>
                           </h1>
                           <div className="spacer-small"></div>
                           <p slide-in-header="" className="text-size-medium">
-                            Our AI-powered
-                            <a href="https://www.databahn.ai/platform">
-                              data pipeline management platform
-                            </a>
-                            empowers global enterprises with intelligent data
-                            pipeline tools to easily gather, manage, and move
-                            their data reliably, at lightning speed.
+                            At CroneX Tech, we empower financial institutions with secure, scalable, and intelligent digital ecosystems. From Mutual Funds to Stock Markets, Insurance, and transaction-driven platforms, we build technology that enhances performance, accelerates growth, and ensures absolute trust in every interaction.
                           </p>
                           <div className="spacer-medium"></div>
                           <div slide-in-header="" className="button-group">
@@ -2321,7 +1012,7 @@ const Home = () => {
                             >
                               <div className="button_content">
                                 <div className="text-size-regular">
-                                  Book a Demo
+                                  Explore our Services
                                 </div>
                                 <div className="arrow">
                                   <div className="icon-embed-custom1 w-embed">
@@ -2445,8 +1136,7 @@ const Home = () => {
                     <div className="text-align-center">
                       <div className="max-width-large align-center">
                         <div slide-in="" className="text-size-large">
-                          Trusted by the world&#x27;s most ambitious companies
-                          and partners
+                          Our Associated Partners.
                         </div>
                       </div>
                     </div>
@@ -2754,27 +1444,23 @@ const Home = () => {
                     <div className="max-width-xlarge align-center">
                       <div className="text-align-center">
                         <h2 className="heading-style-h3">
-                          <span className="text-gradient-grey">Your</span>
-                          <span className="text-gradient-blue">complete</span>
+                          <span className="text-gradient-grey">Empowering </span>
+                          <span className="text-gradient-blue"> Tomorrow’s Finance </span>
                           <span className="text-gradient-grey">
-                            data pipeline platform
+                            With Intelligent Technology
                           </span>
                         </h2>
                         <div className="spacer-xsmall"></div>
                         <div>
                           <p className="text-size-large">
-                            Every source. Every destination. Every bit of
-                            data—collected, transformed, enriched, and routed —
-                            transforming your entire telemetry data lifecycle
-                            into a source of real-time insight, agility, and
-                            value.
+                            CroneX Tech is a forward-thinking IT solutions company delivering advanced Software, Cloud, AI, and Digital Transformation services to global enterprises. With deep expertise in FinTech—covering Mutual Funds, Stock Markets, Insurance, and transaction-heavy systems—we build secure, scalable, and high-performance digital ecosystems that drive real business impact.
                           </p>
                         </div>
                       </div>
                     </div>
                     <div className="spacer-large"></div>
                     <div className="home_platform_video w-embed">
-                      <video
+                      {/* <video
                         style={{ width: "100%" }}
                         currentheight="auto"
                         autoPlay
@@ -2789,7 +1475,8 @@ const Home = () => {
                           playsInline
                         />
                         Your browser does not support the video tag.
-                      </video>
+                      </video> */}
+                      <img style={{ width: "100%" }} src={CronexImg} alt="" />
                     </div>
                   </div>
                 </div>
@@ -10625,14 +9312,15 @@ const Home = () => {
                     <div>
                       <div className="max-width-xlarge">
                         <div slide-in="" className="tag">
-                          Why Databahn
+                          Our Services
                         </div>
                         <div className="spacer-1-25rem"></div>
                         <h2 slide-in="" className="heading-style-h2">
-                          <span className="text-gradient-grey">What sets </span>
-                          <span className="text-gradient-blue">DataBahn </span>
-                          <span className="text-gradient-grey">apart </span>
+                          <span className="text-gradient-grey">Digital Services That  <br></br></span>
+                          <span className="text-gradient-blue">Think,
+                            Move, and Evolve. </span>
                         </h2>
+                        <div class="max-width-large"><p slide-in="" class="text-size-large text-color-secondary">At CroneX Tech, we deliver end-to-end technology solutions that empower organizations to innovate, scale, and stay secure in the digital era.</p></div>
                       </div>
                     </div>
                     <div className="spacer-xlarge"></div>
@@ -10667,15 +9355,11 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Built by Data Experts
+                                  Software Development
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  Our team built DataBahn after spending years
-                                  dealing with disconnected tools, complicated
-                                  integrations, and unpredictable costs. We
-                                  created something we wish we&#x27;d had–a
-                                  simpler, better way to handle data.
+                                  We build secure, scalable, and high-performance software solutions tailored to your business needs. Our team specializes in creating robust applications that automate workflows, enhance user experience, and support complex enterprise operations.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -10729,16 +9413,11 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                  More than just a Data Pipeline
+                                  Web App Development
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  DataBahn unifies ingestion, enrichment, AI
-                                  readiness, governance, and scalability into a
-                                  single platform. Instead of managing multiple
-                                  tools that only solve part of the puzzle, you
-                                  get full control and clarity over your entire
-                                  data workflow.
+                                  We design and develop fast, secure, and responsive websites and web applications that deliver seamless user experiences across all devices. From high-performance business portals to interactive enterprise platforms, our solutions combine modern UI/UX, scalable architecture, and powerful backend systems.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -14841,6 +13520,6 @@ const Home = () => {
       </div>
     </>
   );
-};  
+};
 
 export default Home;
