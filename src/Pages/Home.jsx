@@ -6,6 +6,7 @@ import {
   HomeVid1,
   CronexImg,
 } from "../Components/Image";
+import Navbar from "../Components/Navbar";
 
 import Accordion from "@mui/material/Accordion";
 import AccordionActions from "@mui/material/AccordionActions";
@@ -1806,6 +1807,8 @@ const Home = () => {
               </div>
             </div>
           </section>
+
+          <Navbar />
 
           <div id="usecases" className="section_data-fabrics_tabs">
             <div className="code-embed w-embed"></div>
@@ -4066,6 +4069,7 @@ const Home = () => {
               </div>
             </div>
           </section>
+
           <section id="integrations" className="section_integrations">
             <div className="padding-global">
               <div className="container-large">
@@ -12077,6 +12081,7 @@ const Home = () => {
               </div>
             </div>
           </section>
+
           <section id="faq" className="section_faq">
             <div className="padding-global">
               <div className="container-large">
@@ -12572,6 +12577,7 @@ const Home = () => {
               </div>
             </div>
           </section>
+
           <section id="cta" className="section_form">
             <div className="padding-global">
               <div id="CTA-section" className="container-large">

@@ -7764,9 +7764,7 @@ figcaption {
 }
 
 .section_platform_header {
-  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(
- 1\
-).avif);
+  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(1\).avif);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11206,9 +11204,7 @@ figcaption {
 }
 
 .section_integration_header {
-  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(
- 1\
-).avif);
+  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(1\).avif);
   background-position: 50%;
   background-size: cover;
   position: relative;
@@ -11638,9 +11634,7 @@ figcaption {
 }
 
 .section_portfolio-header {
-  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(
- 1\
-).avif);
+  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(1\).avif);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11957,9 +11951,7 @@ figcaption {
 }
 
 .partner_delivery-partners-item {
-  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890ad870476b5c5a51ac600_Mask%20group%20\(
- 1\
-).avif);
+  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890ad870476b5c5a51ac600_Mask%20group%20\(1\).avif);
   background-position: 0 0;
   background-size: cover;
   border: 1px solid #0f1827;
@@ -12054,12 +12046,7 @@ figcaption {
 
 .partner-benefits_card {
   background-color: #0e1622;
-  /* background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b3e087212fb826f70151_texture%20\(
- 1\
-).avif),
-    url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b40b09b9b2726a536f07_Mask%20group%20\(
- 2\
-).avif); */
+  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b3e087212fb826f70151_texture%20\(1\).avif), url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890b40b09b9b2726a536f07_Mask%20group%20\(2\).avif);
   background-position: 0 0, 0 0;
   background-size: cover, cover;
   border: 1.5px solid #151d29;
@@ -12342,9 +12329,7 @@ figcaption {
 }
 
 .section_usecase-hero {
-  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(
- 1\
-).avif);
+  background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/68876215d69bfd553e84c675_Background%20\(1\).avif);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -14178,9 +14163,7 @@ figcaption {
 
   .partner_delivery-partners-item {
     background-color: #050a12;
-    background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890ad870476b5c5a51ac600_Mask%20group%20\(
- 1\
-).avif);
+    background-image: url(https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6890ad870476b5c5a51ac600_Mask%20group%20\(1\).avif);
     background-position: 0 0;
     background-size: cover;
     border: 1px solid #0f1827;
@@ -16300,8 +16283,41 @@ span.MuiAccordionSummary-content.Mui-expanded.MuiAccordionSummary-contentGutters
   width: 100%;
 }
 
+.product_stars g {
+  animation-name: twinkle;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
 
+@keyframes twinkle {
 
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+}
+.platform_stats_item:hover .platform_stats_gradient, 
+.platform_stats_item:hover .platform_stats_border {
+opacity: 1;
+}
+@keyframes light {
+  from {
+  width: 25rem;
+  }
+  to {
+  width: 0rem;
+  }
+  }
+  .top-light_glow {
+  animation: light 2s ease-in-out infinite alternate;;
+  }
+  .integrations_usecases_item:hover .integrations_usecases_overlay {
+    opacity: 1;
+    }
 
 
 

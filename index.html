@@ -150,6 +150,8 @@
     }
   </style>
 
+  
+
 
   <!-- GSAP -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
@@ -165,6 +167,18 @@
   <script async src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in"></script>
 
   <!-- Google Tag Manager -->
+
+  <script>
+    const stars = document.querySelectorAll('.product_stars g');
+     stars.forEach(star => {
+       const delay = (Math.random() * 5).toFixed(2);
+    const duration = (1 + Math.random() * 9).toFixed(2);
+    star.style.animationDelay = `${delay}s`;
+    star.style.animationDuration = `${duration}s`;
+     });
+  </script>
+
+
   <script>
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
