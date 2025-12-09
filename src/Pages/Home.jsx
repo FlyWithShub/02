@@ -1,5 +1,5 @@
 import React from "react";
-import { mainLogo, heroImg, CronexImg } from "../Components/Image";
+import { mainLogo, heroImg, HomeVid1, CronexImg } from "../Components/Image";
 
 const Home = () => {
   return (
@@ -30,13 +30,13 @@ const Home = () => {
                   aria-current="page"
                   className="navbar_logo-link w-nav-brand w--current"
                 >
-                  <img
+                  {/* <img
                     sizes="(max-width: 479px) 98vw, (max-width: 767px) 99vw, (max-width: 1024px) 100vw, 1024px"
                     alt=""
                     src={mainLogo}
                     loading="lazy"
                     className="navbar_logo is-base"
-                  />
+                  /> */}
                   <img
                     loading="lazy"
                     src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67fe4f18661e2bddbf344297_logo-alternate.avif"
@@ -52,8 +52,6 @@ const Home = () => {
                     <a href="/partners" className="navbar_link">
                       About
                     </a>
-
-
 
                     <div
                       data-delay="200"
@@ -547,9 +545,6 @@ const Home = () => {
                     <a href="/partners" className="navbar_link">
                       Blogs
                     </a>
-
-
-
                   </div>
                   <div className="navbar_menu-buttons">
                     <div className="navbar_button is-base">
@@ -968,7 +963,9 @@ const Home = () => {
                       <div className="home_header_content">
                         <div className="padding-section-large">
                           <div slide-in-header="" className="tag">
-                            <div><small>Innovation. Intelligence. Impact.</small></div>
+                            <div>
+                              <small>Innovation. Intelligence. Impact.</small>
+                            </div>
                             <div className="tag_button hide">
                               <div className="icon-embed-custom1 w-embed">
                                 <svg
@@ -1001,7 +998,13 @@ const Home = () => {
                           </h1>
                           <div className="spacer-small"></div>
                           <p slide-in-header="" className="text-size-medium">
-                            At CroneX Tech, we empower financial institutions with secure, scalable, and intelligent digital ecosystems. From Mutual Funds to Stock Markets, Insurance, and transaction-driven platforms, we build technology that enhances performance, accelerates growth, and ensures absolute trust in every interaction.
+                            At CroneX Tech, we empower financial institutions
+                            with secure, scalable, and intelligent digital
+                            ecosystems. From Mutual Funds to Stock Markets,
+                            Insurance, and transaction-driven platforms, we
+                            build technology that enhances performance,
+                            accelerates growth, and ensures absolute trust in
+                            every interaction.
                           </p>
                           <div className="spacer-medium"></div>
                           <div slide-in-header="" className="button-group">
@@ -1444,8 +1447,13 @@ const Home = () => {
                     <div className="max-width-xlarge align-center">
                       <div className="text-align-center">
                         <h2 className="heading-style-h3">
-                          <span className="text-gradient-grey">Empowering </span>
-                          <span className="text-gradient-blue"> Tomorrow’s Finance </span>
+                          <span className="text-gradient-grey">
+                            Empowering{" "}
+                          </span>
+                          <span className="text-gradient-blue">
+                            {" "}
+                            Tomorrow’s Finance{" "}
+                          </span>
                           <span className="text-gradient-grey">
                             With Intelligent Technology
                           </span>
@@ -1453,14 +1461,21 @@ const Home = () => {
                         <div className="spacer-xsmall"></div>
                         <div>
                           <p className="text-size-large">
-                            CroneX Tech is a forward-thinking IT solutions company delivering advanced Software, Cloud, AI, and Digital Transformation services to global enterprises. With deep expertise in FinTech—covering Mutual Funds, Stock Markets, Insurance, and transaction-heavy systems—we build secure, scalable, and high-performance digital ecosystems that drive real business impact.
+                            CroneX Tech is a forward-thinking IT solutions
+                            company delivering advanced Software, Cloud, AI, and
+                            Digital Transformation services to global
+                            enterprises. With deep expertise in FinTech—covering
+                            Mutual Funds, Stock Markets, Insurance, and
+                            transaction-heavy systems—we build secure, scalable,
+                            and high-performance digital ecosystems that drive
+                            real business impact.
                           </p>
                         </div>
                       </div>
                     </div>
                     <div className="spacer-large"></div>
                     <div className="home_platform_video w-embed">
-                      {/* <video
+                      <video
                         style={{ width: "100%" }}
                         currentheight="auto"
                         autoPlay
@@ -1469,14 +1484,10 @@ const Home = () => {
                         playsInline
                         preload="auto"
                       >
-                        <source
-                          src="https://files.tryflowdrive.com/ht94pkVZMq_Hero-Infographic-Card-D02_Compressed.mp4"
-                          type="video/mp4"
-                          playsInline
-                        />
+                        <source src={HomeVid1} type="video/mp4" playsInline />
                         Your browser does not support the video tag.
-                      </video> */}
-                      <img style={{ width: "100%" }} src={CronexImg} alt="" />
+                      </video>
+                      {/* <img style={{ width: "100%" }} src={CronexImg} alt="" /> */}
                     </div>
                   </div>
                 </div>
@@ -1484,239 +1495,296 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="section_home_testimonials">
+          <section id="why" className="section_why">
             <div className="padding-global">
               <div className="container-large">
                 <div className="padding-section-medium">
-                  <div className="testimonials_top-wrapper">
-                    <div slide-in="" className="tag">
-                      Testimonials
-                    </div>
-                    <div className="spacer-small"></div>
-                    <h2 slide-in="" className="heading-style-h2">
-                      <span className="text-gradient-grey">
-                        Don&#x27;t just take our word for it; our customers{" "}
-                      </span>
-                      <span className="text-gradient-blue">say it best</span>
-                    </h2>
-                  </div>
-                  <div className="spacer-large"></div>
-                  <div
-                    reveal-list=""
-                    className="home_testimonials_list-wrapper no-scrollbar"
-                  >
-                    <div className="code-embed w-embed"></div>
-                    <div className="home_testimonials_list is-top">
-                      <div
-                        reveal-item=""
-                        id="w-node-f28e81ae-c56d-109a-0b80-6578a7b79dd0-1c2c275d"
-                        className="home_testimonials_item is-large"
-                      >
-                        <div className="text-size-large">
-                          “DataBahn’s approach has truly simplified Sentinel,
-                          making it more efficient and cost-effective. Excited
-                          <br />
-                          to see what’s next!&quot;
+                  <div className="why_component">
+                    <div>
+                      <div className="max-width-xlarge">
+                        <div slide-in="" className="tag">
+                          Our Services
                         </div>
-                        <div className="spacer-large"></div>
-                        <div className="home_testimonials_author-wrapper">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea062ee533af97d4e5a_SIEM%20(1).avif"
-                            loading="lazy"
-                            sizes="(max-width: 1080px) 100vw, 1080px"
-                            srcSet="
-                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea062ee533af97d4e5a_SIEM%20(1)-p-500.avif  500w,
-                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea062ee533af97d4e5a_SIEM%20(1).avif       1080w
-                          "
-                            alt=""
-                            className="home_testimonials_author-image"
-                          />
-                          <div>
-                            <div className="text-size-medium text-weight-semibold text-color-primary">
-                              John Nolan
-                            </div>
-                            <div className="text-color-tertiary">
-                              Information Security Engineer, McAfee
-                            </div>
-                          </div>
+                        <div className="spacer-1-25rem"></div>
+                        <h2 slide-in="" className="heading-style-h2">
+                          <span className="text-gradient-grey">
+                            Digital Services That <br></br>
+                          </span>
+                          <span className="text-gradient-blue">
+                            Think, Move, and Evolve.{" "}
+                          </span>
+                        </h2>
+                        <div className="max-width-large">
+                          <p
+                            slide-in=""
+                            className="text-size-large text-color-secondary"
+                          >
+                            At CroneX Tech, we deliver end-to-end technology
+                            solutions that empower organizations to innovate,
+                            scale, and stay secure in the digital era.
+                          </p>
                         </div>
-                        <div className="home_testimonials_gradient-2"></div>
-                        <div className="home_testimonials_gradient-1"></div>
-                        <div className="home_testimonials_border"></div>
                       </div>
+                    </div>
+                    <div className="spacer-xlarge"></div>
+                    <div className="w-layout-grid why_list-wrapper">
                       <div
-                        reveal-item=""
-                        className="home_testimonials_item is-large"
+                        id="w-node-_53188e1c-f765-33ab-e83e-8ae5a9742b25-1c2c275d"
+                        className="w-layout-grid why_list no-scrollbar"
                       >
-                        <div className="text-size-large">
-                          &quot;We have recently started a journey with DataBahn
-                          (
-                          <a target="_blank" href="http://databahn.ai/">
-                            DataBahn.ai
+                        <div className="code-embed w-embed"></div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="/leadership"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef46967d4078eafee9_Why%20Databhan%20Section%20-%20%20Icons.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                  Software Development
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  We build secure, scalable, and
+                                  high-performance software solutions tailored
+                                  to your business needs. Our team specializes
+                                  in creating robust applications that automate
+                                  workflows, enhance user experience, and
+                                  support complex enterprise operations.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </a>
-                          ) and I can’t speak highly enough about the product or
-                          the amazing team at DataBahn. Take the time to explore
-                          this technology and learn what this could mean for
-                          you.&quot;
                         </div>
-                        <div className="spacer-large"></div>
-                        <div className="home_testimonials_author-wrapper">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680bf2155b46385c0f6047a2_Greg%20Stewart.avif"
-                            loading="lazy"
-                            alt=""
-                            className="home_testimonials_author-image"
-                          />
-                          <div>
-                            <div className="text-size-medium text-weight-semibold text-color-primary">
-                              Greg Stewart
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="/platform"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
                             </div>
-                            <div className="text-color-tertiary">
-                              Senior Director, Cybersecurity, Threat
-                              Intelligence &amp; Incident Response
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef7c4cc6267efb6afc_Why%20Databhan%20Section%20-%20%20Icons-1.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                  Web App Development
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  We design and develop fast, secure, and
+                                  responsive websites and web applications that
+                                  deliver seamless user experiences across all
+                                  devices. From high-performance business
+                                  portals to interactive enterprise platforms,
+                                  our solutions combine modern UI/UX, scalable
+                                  architecture, and powerful backend systems.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                          </div>
+                          </a>
                         </div>
-                        <div className="home_testimonials_gradient-2"></div>
-                        <div className="home_testimonials_gradient-1"></div>
-                        <div className="home_testimonials_border"></div>
-                      </div>
-                      <div
-                        reveal-item=""
-                        id="w-node-b737643b-737d-a0af-dbad-29cb36ac6743-1c2c275d"
-                        className="home_testimonials_item"
-                      >
-                        <div>
-                          <div className="home_testimonials_number">
-                            $<span fs-numbercount-element="number">350</span>K
-                          </div>
-                          <div className="spacer-xxtiny"></div>
-                          <div className="text-size-medium">
-                            annual savings in SIEM licensing and data storage
-                            costs.
-                          </div>
-                        </div>
-                        <div className="spacer-xlarge"></div>
-                        <div className="testimonials_comany_text_wrap">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67f3921505670d6f3ac93321_Slack.avif"
-                            loading="lazy"
-                            alt=""
-                            className="home_testimonails_logo hide"
-                          />
-                          <div className="text-color-primary text-weight-medium">
-                            US Investment Management Firm
-                          </div>
-                        </div>
-                        <div className="home_testimonials_gradient-2"></div>
-                        <div className="home_testimonials_gradient-1"></div>
-                        <div className="home_testimonials_border"></div>
-                      </div>
-                    </div>
-                    <div className="home_testimonials_list is-bottom">
-                      <div
-                        reveal-item=""
-                        id="w-node-edaca46f-6f0e-f591-f7af-c94841540607-1c2c275d"
-                        className="home_testimonials_item"
-                      >
-                        <div>
-                          <div className="home_testimonials_number">
-                            $<span fs-numbercount-element="number">254</span>K
-                          </div>
-                          <div className="spacer-xxtiny"></div>
-                          <div className="text-size-medium">
-                            annual savings in SIEM licensing and data storage
-                            costs.
-                          </div>
-                        </div>
-                        <div className="spacer-xlarge"></div>
-                        <div className="testimonials_comany_text_wrap">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67f3921505670d6f3ac93321_Slack.avif"
-                            loading="lazy"
-                            alt=""
-                            className="home_testimonails_logo hide"
-                          />
-                          <div className="text-color-primary text-weight-medium">
-                            US Cybersecurity Technology Firm
-                          </div>
-                        </div>
-                        <div className="home_testimonials_gradient-2"></div>
-                        <div className="home_testimonials_gradient-1"></div>
-                        <div className="home_testimonials_border"></div>
-                      </div>
-                      <div
-                        reveal-item=""
-                        className="home_testimonials_item is-large"
-                      >
-                        <div className="text-size-large">
-                          “We achieved efficient visibility and robust security
-                          without the operational headaches. We reduced 70% of
-                          our data going to our SIEM. And here’s the
-                          game-changer: no ingress, egress, or API fees.&quot;
-                        </div>
-                        <div className="spacer-large"></div>
-                        <div className="home_testimonials_author-wrapper">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea05378b7b440b5bcfd_SIEM%20(2).avif"
-                            loading="lazy"
-                            sizes="(max-width: 1080px) 100vw, 1080px"
-                            srcSet="
-                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea05378b7b440b5bcfd_SIEM%20(2)-p-500.avif  500w,
-                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea05378b7b440b5bcfd_SIEM%20(2).avif       1080w
-                          "
-                            alt=""
-                            className="home_testimonials_author-image"
-                          />
-                          <div>
-                            <div className="text-size-medium text-weight-semibold text-color-primary">
-                              Abraham Selvaraj
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="/about-us"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
                             </div>
-                            <div className="text-color-tertiary">
-                              Director, Information Security, ThinkOn
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef12edb3cfea884dae_Why%20Databhan%20Section%20-%20%20Icons-2.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                  Simple and Intuitive to Use
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  You don’t need a setup guide, technical
+                                  background, special training, or IT support to
+                                  start using DataBahn. It’s simple, intuitive,
+                                  and ready to go immediately–even if you’re not
+                                  a technical expert. We built DataBahn with a
+                                  clear mission: to democratize data management.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                          </div>
+                          </a>
                         </div>
-                        <div className="home_testimonials_gradient-2"></div>
-                        <div className="home_testimonials_gradient-1"></div>
-                        <div className="home_testimonials_border"></div>
-                      </div>
-                      <div
-                        reveal-item=""
-                        id="w-node-c1405e6d-cede-77b6-985c-89c53c894f5a-1c2c275d"
-                        className="home_testimonials_item is-large"
-                      >
-                        <div className="text-size-large">
-                          &quot;DataBahn amplifies the value of Sentinel. It
-                          changes how we look at data.&quot;
-                        </div>
-                        <div className="spacer-large"></div>
-                        <div className="home_testimonials_author-wrapper">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680c060651c90e89d38ceba3_Travis%20Farral.avif"
-                            loading="lazy"
-                            sizes="(max-width: 800px) 100vw, 800px"
-                            srcSet="
-                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680c060651c90e89d38ceba3_Travis%20Farral-p-500.avif 500w,
-                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680c060651c90e89d38ceba3_Travis%20Farral.avif       800w
-                          "
-                            alt=""
-                            className="home_testimonials_author-image"
-                          />
-                          <div>
-                            <div className="text-size-medium text-weight-semibold text-color-primary">
-                              Travis Farral
-                              <br />
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="/roi-calculator"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
                             </div>
-                            <div className="text-color-tertiary">
-                              Vice President and Chief Information Security
-                              Officer at Archaea Energy
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                  Rapid Time to Value
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  DataBahn gets your data flowing fast, turning
+                                  it into value immediately. While others leave
+                                  you busy connecting sources or troubleshooting
+                                  pipelines, you&#x27;re already seeing insights
+                                  and taking action.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                          </div>
+                          </a>
                         </div>
-                        <div className="home_testimonials_gradient-2"></div>
-                        <div className="home_testimonials_gradient-1"></div>
-                        <div className="home_testimonials_border"></div>
                       </div>
                     </div>
                   </div>
@@ -3303,6 +3371,248 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          <section className="section_home_testimonials">
+            <div className="padding-global">
+              <div className="container-large">
+                <div className="padding-section-medium">
+                  <div className="testimonials_top-wrapper">
+                    <div slide-in="" className="tag">
+                      Testimonials
+                    </div>
+                    <div className="spacer-small"></div>
+                    <h2 slide-in="" className="heading-style-h2">
+                      <span className="text-gradient-grey">
+                        Don&#x27;t just take our word for it; our customers{" "}
+                      </span>
+                      <span className="text-gradient-blue">say it best</span>
+                    </h2>
+                  </div>
+                  <div className="spacer-large"></div>
+                  <div
+                    reveal-list=""
+                    className="home_testimonials_list-wrapper no-scrollbar"
+                  >
+                    <div className="code-embed w-embed"></div>
+                    <div className="home_testimonials_list is-top">
+                      <div
+                        reveal-item=""
+                        id="w-node-f28e81ae-c56d-109a-0b80-6578a7b79dd0-1c2c275d"
+                        className="home_testimonials_item is-large"
+                      >
+                        <div className="text-size-large">
+                          “DataBahn’s approach has truly simplified Sentinel,
+                          making it more efficient and cost-effective. Excited
+                          <br />
+                          to see what’s next!&quot;
+                        </div>
+                        <div className="spacer-large"></div>
+                        <div className="home_testimonials_author-wrapper">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea062ee533af97d4e5a_SIEM%20(1).avif"
+                            loading="lazy"
+                            sizes="(max-width: 1080px) 100vw, 1080px"
+                            srcSet="
+                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea062ee533af97d4e5a_SIEM%20(1)-p-500.avif  500w,
+                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea062ee533af97d4e5a_SIEM%20(1).avif       1080w
+                          "
+                            alt=""
+                            className="home_testimonials_author-image"
+                          />
+                          <div>
+                            <div className="text-size-medium text-weight-semibold text-color-primary">
+                              John Nolan
+                            </div>
+                            <div className="text-color-tertiary">
+                              Information Security Engineer, McAfee
+                            </div>
+                          </div>
+                        </div>
+                        <div className="home_testimonials_gradient-2"></div>
+                        <div className="home_testimonials_gradient-1"></div>
+                        <div className="home_testimonials_border"></div>
+                      </div>
+                      <div
+                        reveal-item=""
+                        className="home_testimonials_item is-large"
+                      >
+                        <div className="text-size-large">
+                          &quot;We have recently started a journey with DataBahn
+                          (
+                          <a target="_blank" href="http://databahn.ai/">
+                            DataBahn.ai
+                          </a>
+                          ) and I can’t speak highly enough about the product or
+                          the amazing team at DataBahn. Take the time to explore
+                          this technology and learn what this could mean for
+                          you.&quot;
+                        </div>
+                        <div className="spacer-large"></div>
+                        <div className="home_testimonials_author-wrapper">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680bf2155b46385c0f6047a2_Greg%20Stewart.avif"
+                            loading="lazy"
+                            alt=""
+                            className="home_testimonials_author-image"
+                          />
+                          <div>
+                            <div className="text-size-medium text-weight-semibold text-color-primary">
+                              Greg Stewart
+                            </div>
+                            <div className="text-color-tertiary">
+                              Senior Director, Cybersecurity, Threat
+                              Intelligence &amp; Incident Response
+                            </div>
+                          </div>
+                        </div>
+                        <div className="home_testimonials_gradient-2"></div>
+                        <div className="home_testimonials_gradient-1"></div>
+                        <div className="home_testimonials_border"></div>
+                      </div>
+                      <div
+                        reveal-item=""
+                        id="w-node-b737643b-737d-a0af-dbad-29cb36ac6743-1c2c275d"
+                        className="home_testimonials_item"
+                      >
+                        <div>
+                          <div className="home_testimonials_number">
+                            $<span fs-numbercount-element="number">350</span>K
+                          </div>
+                          <div className="spacer-xxtiny"></div>
+                          <div className="text-size-medium">
+                            annual savings in SIEM licensing and data storage
+                            costs.
+                          </div>
+                        </div>
+                        <div className="spacer-xlarge"></div>
+                        <div className="testimonials_comany_text_wrap">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67f3921505670d6f3ac93321_Slack.avif"
+                            loading="lazy"
+                            alt=""
+                            className="home_testimonails_logo hide"
+                          />
+                          <div className="text-color-primary text-weight-medium">
+                            US Investment Management Firm
+                          </div>
+                        </div>
+                        <div className="home_testimonials_gradient-2"></div>
+                        <div className="home_testimonials_gradient-1"></div>
+                        <div className="home_testimonials_border"></div>
+                      </div>
+                    </div>
+                    <div className="home_testimonials_list is-bottom">
+                      <div
+                        reveal-item=""
+                        id="w-node-edaca46f-6f0e-f591-f7af-c94841540607-1c2c275d"
+                        className="home_testimonials_item"
+                      >
+                        <div>
+                          <div className="home_testimonials_number">
+                            $<span fs-numbercount-element="number">254</span>K
+                          </div>
+                          <div className="spacer-xxtiny"></div>
+                          <div className="text-size-medium">
+                            annual savings in SIEM licensing and data storage
+                            costs.
+                          </div>
+                        </div>
+                        <div className="spacer-xlarge"></div>
+                        <div className="testimonials_comany_text_wrap">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67f3921505670d6f3ac93321_Slack.avif"
+                            loading="lazy"
+                            alt=""
+                            className="home_testimonails_logo hide"
+                          />
+                          <div className="text-color-primary text-weight-medium">
+                            US Cybersecurity Technology Firm
+                          </div>
+                        </div>
+                        <div className="home_testimonials_gradient-2"></div>
+                        <div className="home_testimonials_gradient-1"></div>
+                        <div className="home_testimonials_border"></div>
+                      </div>
+                      <div
+                        reveal-item=""
+                        className="home_testimonials_item is-large"
+                      >
+                        <div className="text-size-large">
+                          “We achieved efficient visibility and robust security
+                          without the operational headaches. We reduced 70% of
+                          our data going to our SIEM. And here’s the
+                          game-changer: no ingress, egress, or API fees.&quot;
+                        </div>
+                        <div className="spacer-large"></div>
+                        <div className="home_testimonials_author-wrapper">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea05378b7b440b5bcfd_SIEM%20(2).avif"
+                            loading="lazy"
+                            sizes="(max-width: 1080px) 100vw, 1080px"
+                            srcSet="
+                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea05378b7b440b5bcfd_SIEM%20(2)-p-500.avif  500w,
+                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680e7ea05378b7b440b5bcfd_SIEM%20(2).avif       1080w
+                          "
+                            alt=""
+                            className="home_testimonials_author-image"
+                          />
+                          <div>
+                            <div className="text-size-medium text-weight-semibold text-color-primary">
+                              Abraham Selvaraj
+                            </div>
+                            <div className="text-color-tertiary">
+                              Director, Information Security, ThinkOn
+                            </div>
+                          </div>
+                        </div>
+                        <div className="home_testimonials_gradient-2"></div>
+                        <div className="home_testimonials_gradient-1"></div>
+                        <div className="home_testimonials_border"></div>
+                      </div>
+                      <div
+                        reveal-item=""
+                        id="w-node-c1405e6d-cede-77b6-985c-89c53c894f5a-1c2c275d"
+                        className="home_testimonials_item is-large"
+                      >
+                        <div className="text-size-large">
+                          &quot;DataBahn amplifies the value of Sentinel. It
+                          changes how we look at data.&quot;
+                        </div>
+                        <div className="spacer-large"></div>
+                        <div className="home_testimonials_author-wrapper">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680c060651c90e89d38ceba3_Travis%20Farral.avif"
+                            loading="lazy"
+                            sizes="(max-width: 800px) 100vw, 800px"
+                            srcSet="
+                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680c060651c90e89d38ceba3_Travis%20Farral-p-500.avif 500w,
+                            https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/680c060651c90e89d38ceba3_Travis%20Farral.avif       800w
+                          "
+                            alt=""
+                            className="home_testimonials_author-image"
+                          />
+                          <div>
+                            <div className="text-size-medium text-weight-semibold text-color-primary">
+                              Travis Farral
+                              <br />
+                            </div>
+                            <div className="text-color-tertiary">
+                              Vice President and Chief Information Security
+                              Officer at Archaea Energy
+                            </div>
+                          </div>
+                        </div>
+                        <div className="home_testimonials_gradient-2"></div>
+                        <div className="home_testimonials_gradient-1"></div>
+                        <div className="home_testimonials_border"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section id="products" className="section_home-products">
             <div className="padding-global">
               <div className="container-regular">
@@ -3312,7 +3622,7 @@ const Home = () => {
                       <div className="align-center max-width-large">
                         <h2
                           slide-in=""
-                          className="heading-style-h2 text-color-alternate-accent"
+                          className="heading-style-h2 text-gradient-grey"
                         >
                           The <span className="text-gradient-blue">allies</span>{" "}
                           your data has been waiting for
@@ -3881,18 +4191,6 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="spacer-xlarge"></div>
-                  <div className="home_products_video w-embed w-iframe">
-                    <iframe
-                      currentwidth="100%"
-                      style={{ aspectRatio: "16 / 9" }}
-                      src="https://www.youtube.com/embed/nTP7TwelBqc?si=P8cA_xvexqK3VaaV&rel=0"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
                 </div>
               </div>
             </div>
@@ -9304,281 +9602,12 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section id="why" className="section_why">
-            <div className="padding-global">
-              <div className="container-large">
-                <div className="padding-section-medium">
-                  <div className="why_component">
-                    <div>
-                      <div className="max-width-xlarge">
-                        <div slide-in="" className="tag">
-                          Our Services
-                        </div>
-                        <div className="spacer-1-25rem"></div>
-                        <h2 slide-in="" className="heading-style-h2">
-                          <span className="text-gradient-grey">Digital Services That  <br></br></span>
-                          <span className="text-gradient-blue">Think,
-                            Move, and Evolve. </span>
-                        </h2>
-                        <div class="max-width-large"><p slide-in="" class="text-size-large text-color-secondary">At CroneX Tech, we deliver end-to-end technology solutions that empower organizations to innovate, scale, and stay secure in the digital era.</p></div>
-                      </div>
-                    </div>
-                    <div className="spacer-xlarge"></div>
-                    <div className="w-layout-grid why_list-wrapper">
-                      <div
-                        id="w-node-_53188e1c-f765-33ab-e83e-8ae5a9742b25-1c2c275d"
-                        className="w-layout-grid why_list no-scrollbar"
-                      >
-                        <div className="code-embed w-embed"></div>
-                        <div slide-in="" className="why_item">
-                          <a
-                            href="/leadership"
-                            className="why_item-link w-inline-block"
-                          >
-                            <div className="why_background-image-wrapper">
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
-                                alt=""
-                                className="why_background-image"
-                              />
-                            </div>
-                            <div className="why_card-content">
-                              <div className="why_card-content-top">
-                                <div className="why_item-icon-wrapper">
-                                  <img
-                                    loading="lazy"
-                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef46967d4078eafee9_Why%20Databhan%20Section%20-%20%20Icons.avif"
-                                    alt=""
-                                    className="icon-1x1-large"
-                                  />
-                                </div>
-                                <div className="spacer-1-25rem"></div>
-                                <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Software Development
-                                </h3>
-                                <div className="spacer-0-75rem"></div>
-                                <p>
-                                  We build secure, scalable, and high-performance software solutions tailored to your business needs. Our team specializes in creating robust applications that automate workflows, enhance user experience, and support complex enterprise operations.
-                                </p>
-                              </div>
-                              <div className="spacer-xsmall"></div>
-                              <div className="button-group">
-                                <div className="home_why_button">
-                                  <div className="text-size-medium">
-                                    Meet the leadership
-                                  </div>
-                                  <div className="icon-embed-custom1 w-embed">
-                                    <svg
-                                      currentwidth="16"
-                                      currentheight="16"
-                                      viewBox="0 0 16 16"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        d="M6 3L11 8L6 13"
-                                        stroke="CurrentColor"
-                                        strokeWidth="1.5"
-                                      />
-                                    </svg>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        <div slide-in="" className="why_item">
-                          <a
-                            href="/platform"
-                            className="why_item-link w-inline-block"
-                          >
-                            <div className="why_background-image-wrapper">
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
-                                alt=""
-                                className="why_background-image"
-                              />
-                            </div>
-                            <div className="why_card-content">
-                              <div className="why_card-content-top">
-                                <div className="why_item-icon-wrapper">
-                                  <img
-                                    loading="lazy"
-                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef7c4cc6267efb6afc_Why%20Databhan%20Section%20-%20%20Icons-1.avif"
-                                    alt=""
-                                    className="icon-1x1-large"
-                                  />
-                                </div>
-                                <div className="spacer-1-25rem"></div>
-                                <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Web App Development
-                                </h3>
-                                <div className="spacer-0-75rem"></div>
-                                <p>
-                                  We design and develop fast, secure, and responsive websites and web applications that deliver seamless user experiences across all devices. From high-performance business portals to interactive enterprise platforms, our solutions combine modern UI/UX, scalable architecture, and powerful backend systems.
-                                </p>
-                              </div>
-                              <div className="spacer-xsmall"></div>
-                              <div className="button-group">
-                                <div className="home_why_button">
-                                  <div className="text-size-medium">
-                                    Explore the platform
-                                  </div>
-                                  <div className="icon-embed-custom1 w-embed">
-                                    <svg
-                                      currentwidth="16"
-                                      currentheight="16"
-                                      viewBox="0 0 16 16"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        d="M6 3L11 8L6 13"
-                                        stroke="CurrentColor"
-                                        strokeWidth="1.5"
-                                      />
-                                    </svg>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        <div slide-in="" className="why_item">
-                          <a
-                            href="/about-us"
-                            className="why_item-link w-inline-block"
-                          >
-                            <div className="why_background-image-wrapper">
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
-                                alt=""
-                                className="why_background-image"
-                              />
-                            </div>
-                            <div className="why_card-content">
-                              <div className="why_card-content-top">
-                                <div className="why_item-icon-wrapper">
-                                  <img
-                                    loading="lazy"
-                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef12edb3cfea884dae_Why%20Databhan%20Section%20-%20%20Icons-2.avif"
-                                    alt=""
-                                    className="icon-1x1-large"
-                                  />
-                                </div>
-                                <div className="spacer-1-25rem"></div>
-                                <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Simple and Intuitive to Use
-                                </h3>
-                                <div className="spacer-0-75rem"></div>
-                                <p>
-                                  You don’t need a setup guide, technical
-                                  background, special training, or IT support to
-                                  start using DataBahn. It’s simple, intuitive,
-                                  and ready to go immediately–even if you’re not
-                                  a technical expert. We built DataBahn with a
-                                  clear mission: to democratize data management.
-                                </p>
-                              </div>
-                              <div className="spacer-xsmall"></div>
-                              <div className="button-group">
-                                <div className="home_why_button">
-                                  <div className="text-size-medium">
-                                    Learn about us
-                                  </div>
-                                  <div className="icon-embed-custom1 w-embed">
-                                    <svg
-                                      currentwidth="16"
-                                      currentheight="16"
-                                      viewBox="0 0 16 16"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        d="M6 3L11 8L6 13"
-                                        stroke="CurrentColor"
-                                        strokeWidth="1.5"
-                                      />
-                                    </svg>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        <div slide-in="" className="why_item">
-                          <a
-                            href="/roi-calculator"
-                            className="why_item-link w-inline-block"
-                          >
-                            <div className="why_background-image-wrapper">
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
-                                alt=""
-                                className="why_background-image"
-                              />
-                            </div>
-                            <div className="why_card-content">
-                              <div className="why_card-content-top">
-                                <div className="why_item-icon-wrapper">
-                                  <img
-                                    loading="lazy"
-                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
-                                    alt=""
-                                    className="icon-1x1-large"
-                                  />
-                                </div>
-                                <div className="spacer-1-25rem"></div>
-                                <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Rapid Time to Value
-                                </h3>
-                                <div className="spacer-0-75rem"></div>
-                                <p>
-                                  DataBahn gets your data flowing fast, turning
-                                  it into value immediately. While others leave
-                                  you busy connecting sources or troubleshooting
-                                  pipelines, you&#x27;re already seeing insights
-                                  and taking action.
-                                </p>
-                              </div>
-                              <div className="spacer-xsmall"></div>
-                              <div className="button-group">
-                                <div className="home_why_button">
-                                  <div className="text-size-medium">
-                                    Calculate your ROI
-                                  </div>
-                                  <div className="icon-embed-custom1 w-embed">
-                                    <svg
-                                      currentwidth="16"
-                                      currentheight="16"
-                                      viewBox="0 0 16 16"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                      <path
-                                        d="M6 3L11 8L6 13"
-                                        stroke="CurrentColor"
-                                        strokeWidth="1.5"
-                                      />
-                                    </svg>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="resources" className="section_resources">
+
+          <section
+            id="resources"
+            className="section_resources"
+            style={{ display: "none" }}
+          >
             <div className="padding-global">
               <div className="container-large">
                 <div className="home_resources">
@@ -12202,7 +12231,7 @@ const Home = () => {
                           </div>
                         </div>
                         <div className="spacer-xlarge"></div>
-                        <div className="max-width-large align-center">
+                        <div className=" align-center">
                           <div
                             fs-accordion-single="true"
                             fs-accordion-element="group"
@@ -12699,24 +12728,15 @@ const Home = () => {
                             className="heading-style-h2 text-color-primary"
                           >
                             <span className="text-gradient-grey">
-                              Ready to accelerate towards
+                              Ready to accelerate towards{" "}
                             </span>
                             <span className="text-gradient-blue">
-                              Data Utopia?
+                              FinTech Solution.
                             </span>
                           </h2>
                           <div className="spacer-small"></div>
-                          <div className="max-width-small align-center">
-                            <p slide-in="" className="text-size-large">
-                              Experience the <strong>speed</strong>,
-                              <strong>simplicity</strong>, and
-                              <strong>power</strong> of our AI-powered data
-                              fabric platform.
-                            </p>
-                          </div>
                         </div>
                       </div>
-                      <div className="spacer-large"></div>
                       <div
                         slide-in=""
                         className="max-width-xsmall align-center"
@@ -12724,171 +12744,139 @@ const Home = () => {
                         <div className="cta_subheading_border"></div>
                         <div className="cta_subheading">
                           <div className="text-color-tertiary">
-                            Tell us a bit about your environment, and we’ll set
-                            you up with a personalized test drive.
+                            Don't be Shy, Just say Hi.
                           </div>
                         </div>
                         <div className="cta_subheading_border"></div>
                       </div>
-                      <div className="spacer-xxlarge"></div>
-                      <div className="max-width-xsmall align-center">
-                        <div slide-in="" className="form_component-alternate">
-                          <div className="cta_meter-wrapper">
-                            <div className="cta_meter">
-                              <img
-                                slide-in=""
-                                loading="lazy"
-                                alt=""
-                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/685f808aa4967f240601b01a_Meter.avif"
-                                className="cta_meter-background"
-                              />
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/685f9bc2e08343bf69e2ded4_meter-needle.avif"
-                                alt=""
-                                className="cta_meter-needle"
-                              />
-                            </div>
-                          </div>
-                          <div className="form_block-alternate w-form">
-                            <form
-                              id="wf-form-CTA-Form"
-                              name="wf-form-CTA-Form"
-                              data-name="CTA Form"
-                              method="get"
-                              data-webflow-hubspot-api-form-url="https://hubspotonwebflow.com/api/forms/3ef2122b-397b-4d6b-8a72-90a5495b0eea"
-                              className="cta_form"
-                              data-wf-page-id="67eb571d0fe797071c2c275d"
-                              data-wf-element-id="3989cfd4-4172-3ad6-eaa8-32d197287893"
-                            >
-                              <div className="div-block-32"></div>
-                              <a
-                                slide-in=""
-                                href="/book-a-demo"
-                                className="button-primary w-inline-block"
-                              >
-                                <div className="button_content">
-                                  <div>Book a Demo</div>
-                                  <div className="arrow">
-                                    <div className="icon-embed-xsmall w-embed">
-                                      <svg
-                                        className="arrow_svg"
-                                        currentwidth=" 100%"
-                                        currentheight=" 100%"
-                                        viewBox="0 0 20 20"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M10.6666 15.6667C10.2064 15.6667 9.83337 15.2936 9.83337 14.8333C9.83337 14.3731 10.2064 14 10.6666 14C11.1269 14 11.5 14.3731 11.5 14.8333C11.5 15.2936 11.1269 15.6667 10.6666 15.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M10.6666 5.66666C10.2064 5.66666 9.83337 5.29357 9.83337 4.83334C9.83337 4.3731 10.2064 4 10.6666 4C11.1269 4 11.5 4.3731 11.5 4.83334C11.5 5.29357 11.1269 5.66666 10.6666 5.66666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M13.1667 15.6667C12.7064 15.6667 12.3333 15.2936 12.3333 14.8333C12.3333 14.3731 12.7064 14 13.1667 14C13.6269 14 14 14.3731 14 14.8333C14 15.2936 13.6269 15.6667 13.1667 15.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M13.1667 5.66666C12.7064 5.66666 12.3333 5.29357 12.3333 4.83334C12.3333 4.3731 12.7064 4 13.1667 4C13.6269 4 14 4.3731 14 4.83334C14 5.29357 13.6269 5.66666 13.1667 5.66666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M13.1667 8.16666C12.7064 8.16666 12.3333 7.79358 12.3333 7.33334C12.3333 6.8731 12.7064 6.5 13.1667 6.5C13.6269 6.5 14 6.8731 14 7.33334C14 7.79358 13.6269 8.16666 13.1667 8.16666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M13.1667 13.1667C12.7064 13.1667 12.3333 12.7936 12.3333 12.3333C12.3333 11.8731 12.7064 11.5 13.1667 11.5C13.6269 11.5 14 11.8731 14 12.3333C14 12.7936 13.6269 13.1667 13.1667 13.1667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M15.6667 8.16666C15.2064 8.16666 14.8333 7.79358 14.8333 7.33334C14.8333 6.8731 15.2064 6.5 15.6667 6.5C16.1269 6.5 16.5 6.8731 16.5 7.33334C16.5 7.79358 16.1269 8.16666 15.6667 8.16666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M15.6667 13.1667C15.2064 13.1667 14.8333 12.7936 14.8333 12.3333C14.8333 11.8731 15.2064 11.5 15.6667 11.5C16.1269 11.5 16.5 11.8731 16.5 12.3333C16.5 12.7936 16.1269 13.1667 15.6667 13.1667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M15.6667 10.6667C15.2064 10.6667 14.8333 10.2936 14.8333 9.83334C14.8333 9.3731 15.2064 9 15.6667 9C16.1269 9 16.5 9.3731 16.5 9.83334C16.5 10.2936 16.1269 10.6667 15.6667 10.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M18.1667 10.6667C17.7064 10.6667 17.3333 10.2936 17.3333 9.83334C17.3333 9.3731 17.7064 9 18.1667 9C18.6269 9 19 9.3731 19 9.83334C19 10.2936 18.6269 10.6667 18.1667 10.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M1.5 15.6667C1.03975 15.6667 0.666748 15.2936 0.666748 14.8333C0.666748 14.3731 1.03975 14 1.5 14C1.96025 14 2.33337 14.3731 2.33337 14.8333C2.33337 15.2936 1.96025 15.6667 1.5 15.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M1.5 5.66666C1.03975 5.66666 0.666748 5.29357 0.666748 4.83334C0.666749 4.3731 1.03975 4 1.5 4C1.96025 4 2.33337 4.3731 2.33337 4.83334C2.33337 5.29357 1.96025 5.66666 1.5 5.66666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M4.00004 15.6667C3.5398 15.6667 3.16671 15.2936 3.16671 14.8333C3.16671 14.3731 3.5398 14 4.00004 14C4.46027 14 4.83337 14.3731 4.83337 14.8333C4.83337 15.2936 4.46027 15.6667 4.00004 15.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M4.00004 5.66666C3.5398 5.66666 3.16671 5.29357 3.16671 4.83334C3.16671 4.3731 3.5398 4 4.00004 4C4.46027 4 4.83337 4.3731 4.83337 4.83334C4.83337 5.29357 4.46027 5.66666 4.00004 5.66666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M4.00004 8.16666C3.5398 8.16666 3.16671 7.79358 3.16671 7.33334C3.16671 6.8731 3.5398 6.5 4.00004 6.5C4.46027 6.5 4.83337 6.8731 4.83337 7.33334C4.83337 7.79358 4.46027 8.16666 4.00004 8.16666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M4.00004 13.1667C3.5398 13.1667 3.16671 12.7936 3.16671 12.3333C3.16671 11.8731 3.5398 11.5 4.00004 11.5C4.46027 11.5 4.83337 11.8731 4.83337 12.3333C4.83337 12.7936 4.46027 13.1667 4.00004 13.1667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M6.50004 8.16666C6.0398 8.16666 5.66671 7.79358 5.66671 7.33334C5.66671 6.8731 6.0398 6.5 6.50004 6.5C6.96027 6.5 7.33337 6.8731 7.33337 7.33334C7.33337 7.79358 6.96027 8.16666 6.50004 8.16666Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M6.50004 13.1667C6.0398 13.1667 5.66671 12.7936 5.66671 12.3333C5.66671 11.8731 6.0398 11.5 6.50004 11.5C6.96027 11.5 7.33337 11.8731 7.33337 12.3333C7.33337 12.7936 6.96027 13.1667 6.50004 13.1667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M6.50004 10.6667C6.0398 10.6667 5.66671 10.2936 5.66671 9.83334C5.66671 9.3731 6.0398 9 6.50004 9C6.96027 9 7.33337 9.3731 7.33337 9.83334C7.33337 10.2936 6.96027 10.6667 6.50004 10.6667Z"
-                                          fill="currentColor"
-                                        />
-                                        <path
-                                          d="M9.00004 10.6667C8.5398 10.6667 8.16671 10.2936 8.16671 9.83334C8.16671 9.3731 8.5398 9 9.00004 9C9.46027 9 9.83337 9.3731 9.83337 9.83334C9.83337 10.2936 9.46027 10.6667 9.00004 10.6667Z"
-                                          fill="currentColor"
-                                        />
-                                      </svg>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="button_glow"></div>
-                                <div className="button-primary_pattern"></div>
-                                <div className="button-primary_border"></div>{" "}
-                              </a>
-                              <input type="hidden" name="hutk" value="" />
-                              <input type="hidden" name="ipAddress" value="" />
-                              <input type="hidden" name="pageUri" value="" />
-                              <input type="hidden" name="pageId" value="" />
-                              <input type="hidden" name="pageName" value="" />
-                            </form>
-                            <div className="form_message-success-wrapper w-form-done">
-                              <div className="form_message-success">
-                                <div className="success-text">
-                                  Thank you! Your submission has been received!
+                      <div className="spacer-large"></div>
+                      <div
+                        className="navbar_menu-buttons"
+                        style={{ justifyContent: "center" }}
+                      >
+                        <div className="navbar_button is-base">
+                          <a
+                            data-wf--button-primary--variant="base"
+                            href="/book-a-demo"
+                            className="button-primary w-inline-block"
+                          >
+                            <div className="button_content">
+                              <div className="text-size-regular">
+                                Get in Touch
+                              </div>
+                              <div className="arrow">
+                                <div className="icon-embed-custom1 w-embed">
+                                  <svg
+                                    className="arrow_svg"
+                                    currentwidth=" 100%"
+                                    currentheight=" 100%"
+                                    viewBox="0 0 20 20"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M10.6666 15.6667C10.2064 15.6667 9.83337 15.2936 9.83337 14.8333C9.83337 14.3731 10.2064 14 10.6666 14C11.1269 14 11.5 14.3731 11.5 14.8333C11.5 15.2936 11.1269 15.6667 10.6666 15.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M10.6666 5.66666C10.2064 5.66666 9.83337 5.29357 9.83337 4.83334C9.83337 4.3731 10.2064 4 10.6666 4C11.1269 4 11.5 4.3731 11.5 4.83334C11.5 5.29357 11.1269 5.66666 10.6666 5.66666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M13.1667 15.6667C12.7064 15.6667 12.3333 15.2936 12.3333 14.8333C12.3333 14.3731 12.7064 14 13.1667 14C13.6269 14 14 14.3731 14 14.8333C14 15.2936 13.6269 15.6667 13.1667 15.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M13.1667 5.66666C12.7064 5.66666 12.3333 5.29357 12.3333 4.83334C12.3333 4.3731 12.7064 4 13.1667 4C13.6269 4 14 4.3731 14 4.83334C14 5.29357 13.6269 5.66666 13.1667 5.66666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M13.1667 8.16666C12.7064 8.16666 12.3333 7.79358 12.3333 7.33334C12.3333 6.8731 12.7064 6.5 13.1667 6.5C13.6269 6.5 14 6.8731 14 7.33334C14 7.79358 13.6269 8.16666 13.1667 8.16666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M13.1667 13.1667C12.7064 13.1667 12.3333 12.7936 12.3333 12.3333C12.3333 11.8731 12.7064 11.5 13.1667 11.5C13.6269 11.5 14 11.8731 14 12.3333C14 12.7936 13.6269 13.1667 13.1667 13.1667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M15.6667 8.16666C15.2064 8.16666 14.8333 7.79358 14.8333 7.33334C14.8333 6.8731 15.2064 6.5 15.6667 6.5C16.1269 6.5 16.5 6.8731 16.5 7.33334C16.5 7.79358 16.1269 8.16666 15.6667 8.16666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M15.6667 13.1667C15.2064 13.1667 14.8333 12.7936 14.8333 12.3333C14.8333 11.8731 15.2064 11.5 15.6667 11.5C16.1269 11.5 16.5 11.8731 16.5 12.3333C16.5 12.7936 16.1269 13.1667 15.6667 13.1667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M15.6667 10.6667C15.2064 10.6667 14.8333 10.2936 14.8333 9.83334C14.8333 9.3731 15.2064 9 15.6667 9C16.1269 9 16.5 9.3731 16.5 9.83334C16.5 10.2936 16.1269 10.6667 15.6667 10.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M18.1667 10.6667C17.7064 10.6667 17.3333 10.2936 17.3333 9.83334C17.3333 9.3731 17.7064 9 18.1667 9C18.6269 9 19 9.3731 19 9.83334C19 10.2936 18.6269 10.6667 18.1667 10.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M1.5 15.6667C1.03975 15.6667 0.666748 15.2936 0.666748 14.8333C0.666748 14.3731 1.03975 14 1.5 14C1.96025 14 2.33337 14.3731 2.33337 14.8333C2.33337 15.2936 1.96025 15.6667 1.5 15.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M1.5 5.66666C1.03975 5.66666 0.666748 5.29357 0.666748 4.83334C0.666749 4.3731 1.03975 4 1.5 4C1.96025 4 2.33337 4.3731 2.33337 4.83334C2.33337 5.29357 1.96025 5.66666 1.5 5.66666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M4.00004 15.6667C3.5398 15.6667 3.16671 15.2936 3.16671 14.8333C3.16671 14.3731 3.5398 14 4.00004 14C4.46027 14 4.83337 14.3731 4.83337 14.8333C4.83337 15.2936 4.46027 15.6667 4.00004 15.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M4.00004 5.66666C3.5398 5.66666 3.16671 5.29357 3.16671 4.83334C3.16671 4.3731 3.5398 4 4.00004 4C4.46027 4 4.83337 4.3731 4.83337 4.83334C4.83337 5.29357 4.46027 5.66666 4.00004 5.66666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M4.00004 8.16666C3.5398 8.16666 3.16671 7.79358 3.16671 7.33334C3.16671 6.8731 3.5398 6.5 4.00004 6.5C4.46027 6.5 4.83337 6.8731 4.83337 7.33334C4.83337 7.79358 4.46027 8.16666 4.00004 8.16666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M4.00004 13.1667C3.5398 13.1667 3.16671 12.7936 3.16671 12.3333C3.16671 11.8731 3.5398 11.5 4.00004 11.5C4.46027 11.5 4.83337 11.8731 4.83337 12.3333C4.83337 12.7936 4.46027 13.1667 4.00004 13.1667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M6.50004 8.16666C6.0398 8.16666 5.66671 7.79358 5.66671 7.33334C5.66671 6.8731 6.0398 6.5 6.50004 6.5C6.96027 6.5 7.33337 6.8731 7.33337 7.33334C7.33337 7.79358 6.96027 8.16666 6.50004 8.16666Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M6.50004 13.1667C6.0398 13.1667 5.66671 12.7936 5.66671 12.3333C5.66671 11.8731 6.0398 11.5 6.50004 11.5C6.96027 11.5 7.33337 11.8731 7.33337 12.3333C7.33337 12.7936 6.96027 13.1667 6.50004 13.1667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M6.50004 10.6667C6.0398 10.6667 5.66671 10.2936 5.66671 9.83334C5.66671 9.3731 6.0398 9 6.50004 9C6.96027 9 7.33337 9.3731 7.33337 9.83334C7.33337 10.2936 6.96027 10.6667 6.50004 10.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                    <path
+                                      d="M9.00004 10.6667C8.5398 10.6667 8.16671 10.2936 8.16671 9.83334C8.16671 9.3731 8.5398 9 9.00004 9C9.46027 9 9.83337 9.3731 9.83337 9.83334C9.83337 10.2936 9.46027 10.6667 9.00004 10.6667Z"
+                                      fill="currentColor"
+                                    ></path>
+                                  </svg>
                                 </div>
                               </div>
                             </div>
-                            <div className="form_message-error-wrapper w-form-fail">
-                              <div className="form_message-error">
-                                <div className="error-text">
-                                  Oops! Something went wrong while submitting
-                                  the form.
+                            <div className="button-primary_pattern"></div>
+                            <div className="button-primary_border"></div>
+                          </a>
+                        </div>
+                        <div className="navbar_button is-alternate">
+                          <a
+                            data-wf--button-secondary--variant="alternate"
+                            href="/book-a-demo"
+                            className="button-secondary w-variant-50b92dba-0048-4c60-e748-9428bdc750ca w-inline-block"
+                          >
+                            <div className="button-secondary_content w-variant-50b92dba-0048-4c60-e748-9428bdc750ca">
+                              <div className="button_content">
+                                <div className="text-size-regular text-gradient-blue-3">
+                                  Get Started
                                 </div>
                               </div>
+                              <div className="button_glow"></div>
                             </div>
-                          </div>
+                          </a>
                         </div>
                       </div>
                     </div>
