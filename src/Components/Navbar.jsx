@@ -21,7 +21,7 @@ const Navbar = () => {
                         transform: "translate(0px, 0px)",
                       }}
                     >
-                      Data Pipeline MANAGEMENT Platform
+                      case Studies
                     </div>
 
                     <div className="spacer-1-25rem"></div>
@@ -35,12 +35,15 @@ const Navbar = () => {
                         transform: "translate(0px, 0px)",
                       }}
                     >
-                      <span className="text-gradient-grey">Platform that</span>
-                      <span className="text-gradient-blue"> goes beyond</span>
                       <span className="text-gradient-grey">
-                        {" "}
-                        pipeline management
+                        Proven Results,{" "}
                       </span>
+                      <br></br>
+                      <span className="text-gradient-blue">
+                        {" "}
+                        Real Financial Impact
+                      </span>
+                      <span className="text-gradient-grey"> </span>
                     </h1>
 
                     <div className="spacer-xsmall"></div>
@@ -55,12 +58,13 @@ const Navbar = () => {
                         transform: "translate(0px, 0px)",
                       }}
                     >
-                      Our unified data platform blends operational pipeline
-                      orchestration with deep context and control—so you can
-                      ingest, transform, and operationalize data across modern,
-                      hybrid environments. More than just movement, it brings
-                      meaning to enterprise data with built-in intelligence,
-                      governance, and observability.
+                      Explore how CroneX Tech has transformed financial
+                      enterprises with innovative IT, Cloud, and AI solutions.
+                      Our case studies highlight successful projects across
+                      Mutual Funds, Stock Markets, Insurance, and
+                      transaction-driven systems, showcasing measurable results,
+                      enhanced operational efficiency, and secure digital
+                      transformations
                     </p>
                   </div>
                 </div>
@@ -152,14 +156,17 @@ const Navbar = () => {
       <section className="section_platform_stats">
         <div className="padding-global">
           <div className="container-large">
-            <div className="padding-section-medium padding-bottom">
+            <div className="padding-section-small">
               <div className="integrations_stats_component">
                 <div className="text-align-center">
                   <div className="max-width-xlarge align-center">
                     <div className="max-width-large align-center">
                       <h2>
                         <span className="text-gradient-grey">
-                          Our data footprint
+                          Our{" "}
+                          <span className="text-gradient-blue">
+                            Achievements
+                          </span>
                         </span>
                       </h2>
                     </div>
@@ -176,9 +183,7 @@ const Navbar = () => {
                         <span>1024</span>+
                       </div>
                       <div className="spacer-xlarge"></div>
-                      <p className="text-size-medium">
-                        Petabytes of data processed daily
-                      </p>
+                      <p className="text-size-medium">Projects Delivered</p>
                     </div>
 
                     <img
@@ -196,12 +201,10 @@ const Navbar = () => {
                   <div className="stats_item">
                     <div className="stats_item-content">
                       <div className="stats_number text-gradient-grey">
-                        <span>50</span>%
+                        <span>100</span>+
                       </div>
                       <div className="spacer-xlarge"></div>
-                      <p className="text-size-medium">
-                        Average cost savings for enterprises
-                      </p>
+                      <p className="text-size-medium">Our Clients</p>
                     </div>
 
                     <img
@@ -222,7 +225,7 @@ const Navbar = () => {
                         <span>90</span>%
                       </div>
                       <div className="spacer-xlarge"></div>
-                      <p className="text-size-medium">Faster insights</p>
+                      <p className="text-size-medium">FinTech Expertise</p>
                     </div>
 
                     <img
@@ -240,12 +243,10 @@ const Navbar = () => {
                   <div className="stats_item">
                     <div className="stats_item-content">
                       <div className="stats_number text-gradient-grey">
-                        <span>99</span>%
+                        <span>5</span>+
                       </div>
                       <div className="spacer-xlarge"></div>
-                      <p className="text-size-medium">
-                        Improved visibility across your data
-                      </p>
+                      <p className="text-size-medium">Years in Industry</p>
                     </div>
 
                     <img

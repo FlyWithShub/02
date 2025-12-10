@@ -45,13 +45,13 @@ const Home = () => {
                   aria-current="page"
                   className="navbar_logo-link w-nav-brand w--current"
                 >
-                  {/* <img
+                  <img
                     sizes="(max-width: 479px) 98vw, (max-width: 767px) 99vw, (max-width: 1024px) 100vw, 1024px"
                     alt=""
                     src={mainLogo}
                     loading="lazy"
                     className="navbar_logo is-base"
-                  /> */}
+                  />
                   <img
                     loading="lazy"
                     src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67fe4f18661e2bddbf344297_logo-alternate.avif"
@@ -61,10 +61,10 @@ const Home = () => {
                 </a>
                 <nav role="navigation" className="navbar_menu w-nav-menu">
                   <div className="navbar_menu-links">
-                    <a href="/partners" className="navbar_link">
+                    <a href="#" className="navbar_link">
                       Home
                     </a>
-                    <a href="/partners" className="navbar_link">
+                    <a href="#" className="navbar_link">
                       About
                     </a>
 
@@ -102,7 +102,7 @@ const Home = () => {
                         />
                         <div className="navbar_dropdown-link-list is-2col">
                           <a
-                            href="/integrations/google-secops"
+                            href=""
                             className="navbar_dropdown-link w-inline-block"
                           >
                             <div className="navbar_icon-wrapper">
@@ -125,7 +125,7 @@ const Home = () => {
                             </div>
                             <div className="navbar_text-wrapper">
                               <div className="text-size-small">
-                                Google SecOps
+                                Software Development
                               </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
@@ -148,7 +148,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="/integrations/microsoft-sentinel"
+                            href="#"
                             className="navbar_dropdown-link w-inline-block"
                           >
                             <div className="navbar_icon-wrapper">
@@ -171,7 +171,7 @@ const Home = () => {
                             </div>
                             <div className="navbar_text-wrapper">
                               <div className="text-size-small">
-                                Microsoft Sentinel
+                                Web App Development
                               </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
@@ -194,7 +194,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="/integrations/amazon-security-lake"
+                            href="#"
                             className="navbar_dropdown-link w-inline-block"
                           >
                             <div className="navbar_icon-wrapper">
@@ -217,7 +217,7 @@ const Home = () => {
                             </div>
                             <div className="navbar_text-wrapper">
                               <div className="text-size-small">
-                                Amazon Security Lake
+                                Custom Software Development
                               </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
@@ -240,7 +240,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="/integrations/splunk"
+                            href=""
                             className="navbar_dropdown-link w-inline-block"
                           >
                             <div className="navbar_icon-wrapper">
@@ -262,7 +262,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Splunk</div>
+                              <div className="text-size-small">Cloud Solutions</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -284,7 +284,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="/integrations/exabeam"
+                            href="#"
                             className="navbar_dropdown-link w-inline-block"
                           >
                             <div className="navbar_icon-wrapper">
@@ -306,7 +306,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Exabeam</div>
+                              <div className="text-size-small">Cybersecurity</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -328,7 +328,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6823884343146fe95837b1b6_QRadar%20-%20SOLUTION%20BRIEF%20(3).pdf"
+                            href="#"
                             target="_blank"
                             className="navbar_dropdown-link w-inline-block"
                           >
@@ -351,7 +351,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">IBM QRadar</div>
+                              <div className="text-size-small">Digital Marketing & SEO</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -373,7 +373,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/688cf93bb54ef8a8e8161312_d5a9ae24d974f8d61e870afb39d344de_680dd0f27278b6c273c10ff8_DataBahn-for-Snowflake.pdf"
+                            href="#"
                             target="_blank"
                             className="navbar_dropdown-link w-inline-block"
                           >
@@ -396,7 +396,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Snowflake</div>
+                              <div className="text-size-small">Email / Migration Services</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -418,7 +418,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="/integrations/databricks"
+                            href="#"
                             className="navbar_dropdown-link w-inline-block"
                           >
                             <div className="navbar_icon-wrapper">
@@ -440,7 +440,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Databricks</div>
+                              <div className="text-size-small">AI Services</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -462,7 +462,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/683707fed047e6b4803a626c_Solution%20Brief%20-%20Securonix.pdf"
+                            href="#"
                             target="_blank"
                             className="navbar_dropdown-link w-inline-block"
                           >
@@ -485,7 +485,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Securonix</div>
+                              <div className="text-size-small">Salesforce Development</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -507,7 +507,7 @@ const Home = () => {
                             </div>{" "}
                           </a>
                           <a
-                            href="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/683707fea71832bc6eccaa22_Solution%20Brief%20-%20Devo.pdf"
+                            href="#"
                             target="_blank"
                             className="navbar_dropdown-link w-inline-block"
                           >
@@ -530,7 +530,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Devo</div>
+                              <div className="text-size-small">Zoho Development</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -554,10 +554,10 @@ const Home = () => {
                         </div>
                       </nav>
                     </div>
-                    <a href="/partners" className="navbar_link">
+                    <a href="#" className="navbar_link">
                       Projects
                     </a>
-                    <a href="/partners" className="navbar_link">
+                    <a href="#" className="navbar_link">
                       Blogs
                     </a>
                   </div>
@@ -1700,16 +1700,11 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Simple and Intuitive to Use
+                                  Custom Software Development
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  You don’t need a setup guide, technical
-                                  background, special training, or IT support to
-                                  start using DataBahn. It’s simple, intuitive,
-                                  and ready to go immediately–even if you’re not
-                                  a technical expert. We built DataBahn with a
-                                  clear mission: to democratize data management.
+                                  Our team builds tailor-made software to match your unique business requirements. We focus on creating solutions that integrate seamlessly with existing systems, optimize operations, and drive measurable results across the financial technology landscape.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -1740,7 +1735,7 @@ const Home = () => {
                         </div>
                         <div slide-in="" className="why_item">
                           <a
-                            href="/roi-calculator"
+                            href="#"
                             className="why_item-link w-inline-block"
                           >
                             <div className="why_background-image-wrapper">
@@ -1763,15 +1758,359 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                  Rapid Time to Value
+                                 Cloud Solutions (AWS/Azure/GCP)
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  DataBahn gets your data flowing fast, turning
-                                  it into value immediately. While others leave
-                                  you busy connecting sources or troubleshooting
-                                  pipelines, you&#x27;re already seeing insights
-                                  and taking action.
+                                  We provide enterprise-grade cloud solutions leveraging AWS, Azure, and GCP. From migration and deployment to management and optimization, we ensure scalable, secure, and cost-effective cloud infrastructures for modern FinTech applications.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="#"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                 Cybersecurity
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  Protecting sensitive financial data is our top priority. We offer comprehensive cybersecurity services including risk assessment, threat monitoring, and advanced security implementations to safeguard your digital ecosystem.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="#"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                 Digital Marketing & SEO
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                 Our digital marketing and SEO services help FinTech companies increase visibility, attract qualified leads, and strengthen brand presence. We implement data-driven strategies to drive engagement, conversions, and measurable growth.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="#"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                 Email / Migration Services
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                 We streamline business communication with professional email solutions and seamless migration services. Whether moving to a new platform or optimizing existing email infrastructure, we ensure minimal downtime and maximum efficiency.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="#"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                AI Services (LLM, Automation, RPA, Chatbot)
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  Harness the power of Artificial Intelligence with our LLM, automation, RPA, and chatbot solutions. We enable data-driven decision-making, intelligent automation, and smarter customer interactions for financial enterprises.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="#"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                Salesforce Development
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                 We provide end-to-end Salesforce development and customization, enhancing CRM capabilities for better customer management, workflow automation, and analytics—helping FinTech organizations operate more efficiently.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="#"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef01080e715eb2c564_Why%20Databhan%20Section%20-%20%20Icons-3.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                 Zoho Development
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                 Our Zoho development services optimize business processes by customizing and integrating Zoho apps for CRM, finance, and operations. We help you streamline workflows and enhance productivity.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -3487,7 +3826,7 @@ const Home = () => {
             </div>
           </section>
 
-          <section id="products" className="section_home-products">
+          <section id="products" className="section_home-products" style={{display:"none"}}>
             <div className="padding-global">
               <div className="container-regular">
                 <div className="padding-section-medium">
@@ -13182,7 +13521,7 @@ const Home = () => {
                             Webinars
                           </a>
                           <a
-                            href="/roi-calculator#calculator"
+                            href="##calculator"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
                             ROI Calculator
@@ -13222,7 +13561,7 @@ const Home = () => {
                             Partners
                           </a>
                           <a
-                            href="/roi-calculator"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
                             Why Databahn
