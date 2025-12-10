@@ -5855,7 +5855,7 @@ figcaption {
 
 .footer_wrapper {
   grid-column-gap: var(--_size---xxlarge);
-  grid-row-gap: var(--_size---xxlarge);
+  grid-row-gap: 0;
   flex-flow: column;
   display: flex;
 }
@@ -16288,7 +16288,11 @@ span.MuiAccordionSummary-content.Mui-expanded.MuiAccordionSummary-contentGutters
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
-
+.social-mediaDiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 @keyframes twinkle {
 
   0%,

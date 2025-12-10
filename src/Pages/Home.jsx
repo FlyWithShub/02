@@ -5,6 +5,7 @@ import {
   HomeVid2,
   HomeVid1,
   CronexImg,
+  HomeVid3,
 } from "../Components/Image";
 import Navbar from "../Components/Navbar";
 
@@ -262,7 +263,9 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Cloud Solutions</div>
+                              <div className="text-size-small">
+                                Cloud Solutions
+                              </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -306,52 +309,9 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Cybersecurity</div>
-                            </div>
-                            <div className="icon-embed-xxsmall hide w-embed">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                aria-hidden="true"
-                                role="img"
-                                className="iconify iconify--ic"
-                                currentwidth="100%"
-                                currentheight="100%"
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  fill="currentColor"
-                                  d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
-                                ></path>
-                              </svg>
-                            </div>{" "}
-                          </a>
-                          <a
-                            href="#"
-                            target="_blank"
-                            className="navbar_dropdown-link w-inline-block"
-                          >
-                            <div className="navbar_icon-wrapper">
-                              <div className="icon-embed-xsmall w-embed">
-                                <svg
-                                  currentwidth="currentwidth"
-                                  currentheight="currentheight"
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    clipRule="evenodd"
-                                    d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg>
+                              <div className="text-size-small">
+                                Cybersecurity
                               </div>
-                            </div>
-                            <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Digital Marketing & SEO</div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -396,7 +356,56 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Email / Migration Services</div>
+                              <div className="text-size-small">
+                                Digital Marketing & SEO
+                              </div>
+                            </div>
+                            <div className="icon-embed-xxsmall hide w-embed">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true"
+                                role="img"
+                                className="iconify iconify--ic"
+                                currentwidth="100%"
+                                currentheight="100%"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill="currentColor"
+                                  d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
+                                ></path>
+                              </svg>
+                            </div>{" "}
+                          </a>
+                          <a
+                            href="#"
+                            target="_blank"
+                            className="navbar_dropdown-link w-inline-block"
+                          >
+                            <div className="navbar_icon-wrapper">
+                              <div className="icon-embed-xsmall w-embed">
+                                <svg
+                                  currentwidth="currentwidth"
+                                  currentheight="currentheight"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                    d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
+                                    fill="currentColor"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div className="navbar_text-wrapper">
+                              <div className="text-size-small">
+                                Email / Migration Services
+                              </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -485,7 +494,9 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Salesforce Development</div>
+                              <div className="text-size-small">
+                                Salesforce Development
+                              </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -530,7 +541,9 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="navbar_text-wrapper">
-                              <div className="text-size-small">Zoho Development</div>
+                              <div className="text-size-small">
+                                Zoho Development
+                              </div>
                             </div>
                             <div className="icon-embed-xxsmall hide w-embed">
                               <svg
@@ -1499,7 +1512,7 @@ const Home = () => {
                         playsInline
                         preload="auto"
                       >
-                        <source src={HomeVid1} type="video/mp4" playsInline />
+                        <source src={HomeVid3} type="video/mp4" playsInline />
                         Your browser does not support the video tag.
                       </video>
                       {/* <img style={{ width: "100%" }} src={CronexImg} alt="" /> */}
@@ -1548,6 +1561,71 @@ const Home = () => {
                         className="w-layout-grid why_list no-scrollbar"
                       >
                         <div className="code-embed w-embed"></div>
+                        <div slide-in="" className="why_item">
+                          <a
+                            href="/leadership"
+                            className="why_item-link w-inline-block"
+                          >
+                            <div className="why_background-image-wrapper">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5d786370cc1f2221836_home_why_bg.avif"
+                                alt=""
+                                className="why_background-image"
+                              />
+                            </div>
+                            <div className="why_card-content">
+                              <div className="why_card-content-top">
+                                <div className="why_item-icon-wrapper">
+                                  <img
+                                    loading="lazy"
+                                    src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67eca5ef46967d4078eafee9_Why%20Databhan%20Section%20-%20%20Icons.avif"
+                                    alt=""
+                                    className="icon-1x1-large"
+                                  />
+                                </div>
+                                <div className="spacer-1-25rem"></div>
+                                <h3 className="heading-style-h6 text-gradient-vertical">
+                                  All FinTech-Specific Development
+                                </h3>
+                                <div className="spacer-0-75rem"></div>
+                                <p>
+                                  CroneX Tech specializes in end-to-end FinTech
+                                  software and application development designed
+                                  for Mutual Funds, Stock Markets, Insurance,
+                                  and complex transaction systems. We build
+                                  secure, scalable, and high-performance
+                                  solutions that streamline financial
+                                  operations, enhance customer experiences, and
+                                  ensure regulatory compliance.
+                                </p>
+                              </div>
+                              <div className="spacer-xsmall"></div>
+                              <div className="button-group">
+                                <div className="home_why_button">
+                                  <div className="text-size-medium">
+                                    View More
+                                  </div>
+                                  <div className="icon-embed-custom1 w-embed">
+                                    <svg
+                                      currentwidth="16"
+                                      currentheight="16"
+                                      viewBox="0 0 16 16"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        strokeWidth="1.5"
+                                      />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
                         <div slide-in="" className="why_item">
                           <a
                             href="/leadership"
@@ -1704,7 +1782,12 @@ const Home = () => {
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  Our team builds tailor-made software to match your unique business requirements. We focus on creating solutions that integrate seamlessly with existing systems, optimize operations, and drive measurable results across the financial technology landscape.
+                                  Our team builds tailor-made software to match
+                                  your unique business requirements. We focus on
+                                  creating solutions that integrate seamlessly
+                                  with existing systems, optimize operations,
+                                  and drive measurable results across the
+                                  financial technology landscape.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -1734,10 +1817,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -1758,11 +1838,16 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                 Cloud Solutions (AWS/Azure/GCP)
+                                  Cloud Solutions (AWS/Azure/GCP)
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  We provide enterprise-grade cloud solutions leveraging AWS, Azure, and GCP. From migration and deployment to management and optimization, we ensure scalable, secure, and cost-effective cloud infrastructures for modern FinTech applications.
+                                  We provide enterprise-grade cloud solutions
+                                  leveraging AWS, Azure, and GCP. From migration
+                                  and deployment to management and optimization,
+                                  we ensure scalable, secure, and cost-effective
+                                  cloud infrastructures for modern FinTech
+                                  applications.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -1792,10 +1877,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -1816,11 +1898,16 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                 Cybersecurity
+                                  Cybersecurity
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  Protecting sensitive financial data is our top priority. We offer comprehensive cybersecurity services including risk assessment, threat monitoring, and advanced security implementations to safeguard your digital ecosystem.
+                                  Protecting sensitive financial data is our top
+                                  priority. We offer comprehensive cybersecurity
+                                  services including risk assessment, threat
+                                  monitoring, and advanced security
+                                  implementations to safeguard your digital
+                                  ecosystem.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -1850,10 +1937,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -1874,11 +1958,16 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                 Digital Marketing & SEO
+                                  Digital Marketing & SEO
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                 Our digital marketing and SEO services help FinTech companies increase visibility, attract qualified leads, and strengthen brand presence. We implement data-driven strategies to drive engagement, conversions, and measurable growth.
+                                  Our digital marketing and SEO services help
+                                  FinTech companies increase visibility, attract
+                                  qualified leads, and strengthen brand
+                                  presence. We implement data-driven strategies
+                                  to drive engagement, conversions, and
+                                  measurable growth.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -1908,10 +1997,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -1932,11 +2018,16 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                 Email / Migration Services
+                                  Email / Migration Services
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                 We streamline business communication with professional email solutions and seamless migration services. Whether moving to a new platform or optimizing existing email infrastructure, we ensure minimal downtime and maximum efficiency.
+                                  We streamline business communication with
+                                  professional email solutions and seamless
+                                  migration services. Whether moving to a new
+                                  platform or optimizing existing email
+                                  infrastructure, we ensure minimal downtime and
+                                  maximum efficiency.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -1966,10 +2057,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -1990,11 +2078,16 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                AI Services (LLM, Automation, RPA, Chatbot)
+                                  AI Services (LLM, Automation, RPA, Chatbot)
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                  Harness the power of Artificial Intelligence with our LLM, automation, RPA, and chatbot solutions. We enable data-driven decision-making, intelligent automation, and smarter customer interactions for financial enterprises.
+                                  Harness the power of Artificial Intelligence
+                                  with our LLM, automation, RPA, and chatbot
+                                  solutions. We enable data-driven
+                                  decision-making, intelligent automation, and
+                                  smarter customer interactions for financial
+                                  enterprises.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -2024,10 +2117,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -2048,11 +2138,15 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                Salesforce Development
+                                  Salesforce Development
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                 We provide end-to-end Salesforce development and customization, enhancing CRM capabilities for better customer management, workflow automation, and analytics—helping FinTech organizations operate more efficiently.
+                                  We provide end-to-end Salesforce development
+                                  and customization, enhancing CRM capabilities
+                                  for better customer management, workflow
+                                  automation, and analytics—helping FinTech
+                                  organizations operate more efficiently.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -2082,10 +2176,7 @@ const Home = () => {
                           </a>
                         </div>
                         <div slide-in="" className="why_item">
-                          <a
-                            href="#"
-                            className="why_item-link w-inline-block"
-                          >
+                          <a href="#" className="why_item-link w-inline-block">
                             <div className="why_background-image-wrapper">
                               <img
                                 loading="lazy"
@@ -2106,11 +2197,15 @@ const Home = () => {
                                 </div>
                                 <div className="spacer-1-25rem"></div>
                                 <h3 className="heading-style-h6 text-gradient-vertical">
-                                 Zoho Development
+                                  Zoho Development
                                 </h3>
                                 <div className="spacer-0-75rem"></div>
                                 <p>
-                                 Our Zoho development services optimize business processes by customizing and integrating Zoho apps for CRM, finance, and operations. We help you streamline workflows and enhance productivity.
+                                  Our Zoho development services optimize
+                                  business processes by customizing and
+                                  integrating Zoho apps for CRM, finance, and
+                                  operations. We help you streamline workflows
+                                  and enhance productivity.
                                 </p>
                               </div>
                               <div className="spacer-xsmall"></div>
@@ -2149,7 +2244,11 @@ const Home = () => {
 
           <Navbar />
 
-          <div id="usecases" className="section_data-fabrics_tabs">
+          <div
+            id="usecases"
+            className="section_data-fabrics_tabs"
+            style={{ display: "none" }}
+          >
             <div className="code-embed w-embed"></div>
             <div className="top-light_dot"></div>
             <img
@@ -3614,10 +3713,12 @@ const Home = () => {
                         className="home_testimonials_item is-large"
                       >
                         <div className="text-size-large">
-                          “DataBahn’s approach has truly simplified Sentinel,
-                          making it more efficient and cost-effective. Excited
-                          <br />
-                          to see what’s next!&quot;
+                          “CroneX Tech transformed our financial operations with
+                          a secure and high-performance digital platform. Their
+                          understanding of Mutual Funds and transaction systems
+                          is exceptional. The team delivered on time, stayed
+                          transparent throughout, and helped us scale
+                          confidently
                         </div>
                         <div className="spacer-large"></div>
                         <div className="home_testimonials_author-wrapper">
@@ -3634,10 +3735,10 @@ const Home = () => {
                           />
                           <div>
                             <div className="text-size-medium text-weight-semibold text-color-primary">
-                              John Nolan
+                              Shubh Jeet
                             </div>
                             <div className="text-color-tertiary">
-                              Information Security Engineer, McAfee
+                              Web Developer
                             </div>
                           </div>
                         </div>
@@ -3650,15 +3751,11 @@ const Home = () => {
                         className="home_testimonials_item is-large"
                       >
                         <div className="text-size-large">
-                          &quot;We have recently started a journey with DataBahn
-                          (
-                          <a target="_blank" href="http://databahn.ai/">
-                            DataBahn.ai
-                          </a>
-                          ) and I can’t speak highly enough about the product or
-                          the amazing team at DataBahn. Take the time to explore
-                          this technology and learn what this could mean for
-                          you.&quot;
+                          "Their cloud migration and AI automation expertise
+                          helped us reduce operational costs by 40%. CroneX Tech
+                          is more than a technology partner— they are strategic
+                          problem-solvers who understand real business
+                          challenges
                         </div>
                         <div className="spacer-large"></div>
                         <div className="home_testimonials_author-wrapper">
@@ -3670,11 +3767,10 @@ const Home = () => {
                           />
                           <div>
                             <div className="text-size-medium text-weight-semibold text-color-primary">
-                              Greg Stewart
+                              Palak Tiwari
                             </div>
                             <div className="text-color-tertiary">
-                              Senior Director, Cybersecurity, Threat
-                              Intelligence &amp; Incident Response
+                              Software Engineering
                             </div>
                           </div>
                         </div>
@@ -3688,13 +3784,11 @@ const Home = () => {
                         className="home_testimonials_item"
                       >
                         <div>
-                          <div className="home_testimonials_number">
-                            $<span fs-numbercount-element="number">350</span>K
-                          </div>
                           <div className="spacer-xxtiny"></div>
                           <div className="text-size-medium">
-                            annual savings in SIEM licensing and data storage
-                            costs.
+                            The custom software built by CroneX Tech streamlined
+                            our internal processes and improved client
+                            experience significantly.
                           </div>
                         </div>
                         <div className="spacer-xlarge"></div>
@@ -3706,7 +3800,7 @@ const Home = () => {
                             className="home_testimonails_logo hide"
                           />
                           <div className="text-color-primary text-weight-medium">
-                            US Investment Management Firm
+                            Unknown
                           </div>
                         </div>
                         <div className="home_testimonials_gradient-2"></div>
@@ -3721,13 +3815,9 @@ const Home = () => {
                         className="home_testimonials_item"
                       >
                         <div>
-                          <div className="home_testimonials_number">
-                            $<span fs-numbercount-element="number">254</span>K
-                          </div>
                           <div className="spacer-xxtiny"></div>
                           <div className="text-size-medium">
-                            annual savings in SIEM licensing and data storage
-                            costs.
+                            Their UI/UX capabilities are world-class.
                           </div>
                         </div>
                         <div className="spacer-xlarge"></div>
@@ -3739,7 +3829,7 @@ const Home = () => {
                             className="home_testimonails_logo hide"
                           />
                           <div className="text-color-primary text-weight-medium">
-                            US Cybersecurity Technology Firm
+                            Unknown
                           </div>
                         </div>
                         <div className="home_testimonials_gradient-2"></div>
@@ -3751,10 +3841,10 @@ const Home = () => {
                         className="home_testimonials_item is-large"
                       >
                         <div className="text-size-large">
-                          “We achieved efficient visibility and robust security
-                          without the operational headaches. We reduced 70% of
-                          our data going to our SIEM. And here’s the
-                          game-changer: no ingress, egress, or API fees.&quot;
+                          “CroneX Tech helped us strengthen our security
+                          infrastructure and ensured full compliance with
+                          industry regulations. Their cybersecurity team is
+                          knowledgeable, proactive, and reliable."
                         </div>
                         <div className="spacer-large"></div>
                         <div className="home_testimonials_author-wrapper">
@@ -3771,11 +3861,9 @@ const Home = () => {
                           />
                           <div>
                             <div className="text-size-medium text-weight-semibold text-color-primary">
-                              Abraham Selvaraj
+                              Nikhil Patel
                             </div>
-                            <div className="text-color-tertiary">
-                              Director, Information Security, ThinkOn
-                            </div>
+                            <div className="text-color-tertiary">Something</div>
                           </div>
                         </div>
                         <div className="home_testimonials_gradient-2"></div>
@@ -3788,8 +3876,9 @@ const Home = () => {
                         className="home_testimonials_item is-large"
                       >
                         <div className="text-size-large">
-                          &quot;DataBahn amplifies the value of Sentinel. It
-                          changes how we look at data.&quot;
+                          Their cloud migration and AI automation expertise
+                          helped us reduce operational costs by 40%. CroneX Tech
+                          is more than a technology partner
                         </div>
                         <div className="spacer-large"></div>
                         <div className="home_testimonials_author-wrapper">
@@ -3806,13 +3895,10 @@ const Home = () => {
                           />
                           <div>
                             <div className="text-size-medium text-weight-semibold text-color-primary">
-                              Travis Farral
+                              Pratiksha
                               <br />
                             </div>
-                            <div className="text-color-tertiary">
-                              Vice President and Chief Information Security
-                              Officer at Archaea Energy
-                            </div>
+                            <div className="text-color-tertiary">Designer</div>
                           </div>
                         </div>
                         <div className="home_testimonials_gradient-2"></div>
@@ -3826,7 +3912,11 @@ const Home = () => {
             </div>
           </section>
 
-          <section id="products" className="section_home-products" style={{display:"none"}}>
+          <section
+            id="products"
+            className="section_home-products"
+            style={{ display: "none" }}
+          >
             <div className="padding-global">
               <div className="container-regular">
                 <div className="padding-section-medium">
@@ -4419,21 +4509,16 @@ const Home = () => {
                       <div>
                         <div className="max-width-xlarge">
                           <div slide-in="" className="tag">
-                            Integrations
+                            Our Brands
                           </div>
                           <div className="spacer-small"></div>
                           <h2 slide-in="" className="heading-style-h2">
                             <span className="text-gradient-grey">
-                              Plug, play, and accelerate with{" "}
+                              Trusted by Leading Innovators in the
                             </span>
-                            <span
-                              fs-numbercount-element="number"
-                              className="text-gradient-blue"
-                            >
-                              500
-                            </span>
+                            <br></br>{" "}
                             <span className="text-gradient-blue">
-                              + integrations
+                              Financial & Technology World
                             </span>
                           </h2>
                           <div className="spacer-xxsmall"></div>
@@ -4442,11 +4527,13 @@ const Home = () => {
                               slide-in=""
                               className="text-size-large text-color-secondary"
                             >
-                              We&#x27;ve got your data ecosystem fully covered
-                              across on-premise, cloud, and agent-based
-                              security, application, and observability
-                              solutions–with integrations far exceeding other
-                              competing solutions.
+                              At CroneX Tech, our brand is built on trust,
+                              innovation, and long-standing industry
+                              relationships. We are proud to be associated with
+                              forward-thinking financial institutions,
+                              technology leaders, and enterprise partners who
+                              rely on our expertise to power their digital
+                              transformation journeys.
                             </p>
                           </div>
                         </div>
@@ -12464,8 +12551,7 @@ const Home = () => {
                                 <Typography component="span">
                                   <div className="faq_question-content">
                                     <h3 className="text-size-large">
-                                      What makes DataBahn different from
-                                      traditional DPM tools and platforms?
+                                      What services does CroneX Tech provide?
                                       <br />
                                     </h3>
                                     <div className="faq_icon-wrappper">
@@ -12495,9 +12581,12 @@ const Home = () => {
                               <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Suspendisse malesuada lacus
-                                  ex, sit amet
+                                  CroneX Tech offers end-to-end IT, Cloud, AI,
+                                  and FinTech development services, including
+                                  software development, web applications, custom
+                                  software, cloud solutions, cybersecurity, AI
+                                  automation, Salesforce, Zoho, ServiceNow
+                                  development, and digital marketing.
                                 </p>
                               </AccordionDetails>
                             </Accordion>
@@ -12511,8 +12600,7 @@ const Home = () => {
                                 <Typography component="span">
                                   <div className="faq_question-content">
                                     <h3 className="text-size-large">
-                                      What makes DataBahn different from
-                                      traditional DPM tools and platforms?
+                                      Do you specialize in FinTech solutions?
                                       <br />
                                     </h3>
                                     <div className="faq_icon-wrappper">
@@ -12542,9 +12630,12 @@ const Home = () => {
                               <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Suspendisse malesuada lacus
-                                  ex, sit amet
+                                  Yes. We have deep expertise in FinTech domains
+                                  such as Mutual Funds, Stock Markets,
+                                  Insurance, and transaction-based systems. We
+                                  build secure, scalable digital platforms that
+                                  meet industry regulations and high-performance
+                                  requirements.
                                 </p>
                               </AccordionDetails>
                             </Accordion>
@@ -12557,8 +12648,7 @@ const Home = () => {
                                 <Typography component="span">
                                   <div className="faq_question-content">
                                     <h3 className="text-size-large">
-                                      What makes DataBahn different from
-                                      traditional DPM tools and platforms?
+                                      What technologies do you work with?
                                       <br />
                                     </h3>
                                     <div className="faq_icon-wrappper">
@@ -12588,9 +12678,11 @@ const Home = () => {
                               <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Suspendisse malesuada lacus
-                                  ex, sit amet
+                                  Our team specializes in modern technologies
+                                  including AWS, Azure, GCP, React, Node.js,
+                                  Python, AI/ML models, RPA tools, Salesforce,
+                                  Zoho, ServiceNow, and enterprise-grade
+                                  security frameworks.
                                 </p>
                               </AccordionDetails>
                             </Accordion>
@@ -12603,8 +12695,8 @@ const Home = () => {
                                 <Typography component="span">
                                   <div className="faq_question-content">
                                     <h3 className="text-size-large">
-                                      What makes DataBahn different from
-                                      traditional DPM tools and platforms?
+                                      How does CroneX Tech manage project
+                                      development?
                                       <br />
                                     </h3>
                                     <div className="faq_icon-wrappper">
@@ -12634,9 +12726,11 @@ const Home = () => {
                               <AccordionDetails className="faq_answer">
                                 <div className="spacer-small"></div>
                                 <p className="text-color-secondary">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Suspendisse malesuada lacus
-                                  ex, sit amet
+                                  We follow a structured and transparent
+                                  process: requirement gathering, planning,
+                                  UI/UX, development, testing, deployment, and
+                                  ongoing support—ensuring timely delivery and
+                                  high-quality output.
                                 </p>
                               </AccordionDetails>
                             </Accordion>
@@ -12952,6 +13046,21 @@ const Home = () => {
                         <div className="cta_subheading_border"></div>
                       </div>
                       <div className="spacer-large"></div>
+
+                      <div className="footer_certifications_list">
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/684ab6e81354be003468dbb7_Badge.svg"
+                            alt=""
+                            loading="lazy"
+                            className="footer_certifications_item"
+                          />
+                          <img
+                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/684ab6f15ff6cc180626f80d_Badge-1.svg"
+                            alt=""
+                            loading="lazy"
+                            className="footer_certifications_item"
+                          />
+                        </div>
                       <div
                         className="navbar_menu-buttons"
                         style={{ justifyContent: "center" }}
@@ -12959,7 +13068,7 @@ const Home = () => {
                         <div className="navbar_button is-base">
                           <a
                             data-wf--button-primary--variant="base"
-                            href="/book-a-demo"
+                            href="#"
                             className="button-primary w-inline-block"
                           >
                             <div className="button_content">
@@ -13367,14 +13476,10 @@ const Home = () => {
                       <div className="footer_left-wrapper">
                         <a href="#" className="footer_logo-link w-inline-block">
                           <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ebaa6ba00e7b767d1db02e_logo.avif"
+                            src={mainLogo}
                             alt=""
                             loading="lazy"
                             sizes="(max-width: 1024px) 100vw, 1024px"
-                            srcSet="
-                          https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ebaa6ba00e7b767d1db02e_logo-p-500.png 500w,
-                          https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ebaa6ba00e7b767d1db02e_logo.avif 1024w
-                        "
                             className="footer_logo"
                           />
                         </a>
@@ -13383,26 +13488,19 @@ const Home = () => {
 
                         <div className="footer_details-wrapper">
                           <div className="text-color-tertiary">
-                            Our AI-native data pipeline management solution
-                            automates, simplifies, and streamlines data so you
-                            have the right insights at the right time
-                            <br />
-                            <br />
-                            <br />
-                            5700 Tennyson Parkway,
-                            <br />
-                            Plano, TX 75024, United States
+                            Innovation. Intelligence. Impact.
                           </div>
                         </div>
 
                         <div className="spacer-small"></div>
 
+                        <div className="social-mediaDiv">
                         <a
-                          href="https://www.linkedin.com/company/databahn-ai/"
+                          href="#"
                           target="_blank"
                           rel="noreferrer"
                           className="social_link w-inline-block"
-                        >
+                          >
                           <div className="icon-embed-xsmall w-embed">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -13425,23 +13523,67 @@ const Home = () => {
                             </svg>
                           </div>
                         </a>
+                        <a
+                          href="#"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="social_link w-inline-block"
+                          >
+                          <div className="icon-embed-xsmall w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              aria-hidden="true"
+                              role="img"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 24 24"
+                            >
+                              <circle
+                                cx="4.983"
+                                cy="5.009"
+                                r="2.188"
+                                fill="currentColor"
+                              ></circle>
+                              <path
+                                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="social_link w-inline-block"
+                          >
+                          <div className="icon-embed-xsmall w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              aria-hidden="true"
+                              role="img"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 24 24"
+                            >
+                              <circle
+                                cx="4.983"
+                                cy="5.009"
+                                r="2.188"
+                                fill="currentColor"
+                              ></circle>
+                              <path
+                                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+                        </div>
 
                         <div className="spacer-large"></div>
 
-                        <div className="footer_certifications_list">
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/684ab6e81354be003468dbb7_Badge.svg"
-                            alt=""
-                            loading="lazy"
-                            className="footer_certifications_item"
-                          />
-                          <img
-                            src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/684ab6f15ff6cc180626f80d_Badge-1.svg"
-                            alt=""
-                            loading="lazy"
-                            className="footer_certifications_item"
-                          />
-                        </div>
+                        
                       </div>
                     </div>
 
@@ -13449,43 +13591,62 @@ const Home = () => {
                     <div className="footer_menu-wrapper">
                       <div>
                         <div className="text-size-small text-weight-medium text-style-allcaps">
-                          Integrations
+                          Services
                         </div>
                         <div className="spacer-xsmall"></div>
 
                         <div className="footer_link-list">
                           <a
-                            href="/integrations/google-secops"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Google SecOps
+                            FinTech-Specific
                           </a>
                           <a
-                            href="/integrations/microsoft-sentinel"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Microsoft Sentinel
+                            Software Dev
                           </a>
                           <a
-                            href="/integrations/amazon-security-lake"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Amazon Security Lake
+                            Web Application
+                          </a>
+                         
+                          <a
+                            href="#"
+                            className="text-style-link text-weight-semibold text-color-primary"
+                          >
+                            Cloud Solutions
                           </a>
                           <a
-                            href="/integrations/splunk"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Splunk
+                            Cybersecurity
                           </a>
                           <a
-                            href="https://cdn.prod.website-files.com/xxx.pdf"
-                            target="_blank"
-                            rel="noreferrer"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            IBM QRadar
+                            Digital Marketing
                           </a>
+                         
+                          <a
+                            href="#"
+                            className="text-style-link text-weight-semibold text-color-primary"
+                          >
+                            AI Services
+                          </a>
+                          <a
+                            href="#"
+                            className="text-style-link text-weight-semibold text-color-primary"
+                          >
+                            Salesforce 
+                          </a>
+                         
                         </div>
                       </div>
 
@@ -13500,31 +13661,31 @@ const Home = () => {
                             href="/case-studies"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Case Studies
+                           Home
                           </a>
                           <a
-                            href="/blog"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Blog
+                            About Us
                           </a>
                           <a
-                            href="/solution-briefs"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Solution Briefs
+                            Projects
                           </a>
                           <a
-                            href="/webinars"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Webinars
+                            Blogs
                           </a>
                           <a
-                            href="##calculator"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            ROI Calculator
+                            Contact Us
                           </a>
                         </div>
                       </div>
@@ -13537,35 +13698,24 @@ const Home = () => {
 
                         <div className="footer_link-list">
                           <a
-                            href="/about-us"
+                            href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            About Us
-                          </a>
-                          <a
-                            href="/leadership"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            Leadership
-                          </a>
-                          <a
-                            href="/newsroom"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            Newsroom
-                          </a>
-                          <a
-                            href="/partners"
-                            className="text-style-link text-weight-semibold text-color-primary"
-                          >
-                            Partners
+                            +91 88270 57950
                           </a>
                           <a
                             href="#"
                             className="text-style-link text-weight-semibold text-color-primary"
                           >
-                            Why Databahn
+                            shubhjeetchakraborty@gmail.com
                           </a>
+                          <a
+                            href="#"
+                            className="text-style-link text-weight-semibold text-color-primary"
+                          >
+                            123 Vijay Nagar Indore 452010
+                          </a>
+                         
                         </div>
                       </div>
                     </div>
@@ -13574,21 +13724,15 @@ const Home = () => {
                   <div className="footer_bottom-wrapper">
                     <div className="text-color-tertiary text-size-regular">
                       Copyright ©{" "}
-                      <span className="footer_credit-year">2025</span> DataBahn.
-                      All rights reserved.
+                      <span className="footer_credit-year">2025</span> CroneX
+                      Tech All rights reserved.
                     </div>
 
                     <div className="footer_legal-list">
-                      <a
-                        href="/legal/terms-of-service"
-                        className="text-style-link"
-                      >
+                      <a href="#" className="text-style-link">
                         Terms of Service
                       </a>
-                      <a
-                        href="/legal/privacy-policy"
-                        className="text-style-link"
-                      >
+                      <a href="#" className="text-style-link">
                         Privacy Policy
                       </a>
                       <a href="#" className="text-style-link">
@@ -13602,7 +13746,7 @@ const Home = () => {
                     >
                       <div className="footer_status_dot"></div>
                       <div className="text-size-small text-weight-semibold text-color-primary">
-                        All Systems Operational
+                      Webinar
                       </div>
                     </a>
                   </div>

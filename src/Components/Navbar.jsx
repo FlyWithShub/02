@@ -1,4 +1,5 @@
 import React from "react";
+import { HomeImg2 } from "./Image";
 
 const Navbar = () => {
   return (
@@ -109,22 +110,21 @@ const Navbar = () => {
                 >
                   <a
                     data-wf--button-primary--variant="base"
-                    href="#CTA-section"
+                    href="#"
                     className="button-primary w-inline-block"
                   >
                     <div className="button_content">
-                      <div className="text-size-regular">Book a Demo</div>
+                      <div className="text-size-regular">View Projects</div>
                       <div className="arrow">
                         <div className="icon-embed-custom1 w-embed">
                           <svg
-                            className="arrow_svg"
-                            width="100%"
-                            height="100%"
+                            class="arrow_svg"
+                            currentwidth=" 100%"
+                            currentheight=" 100%"
                             viewBox="0 0 20 20"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            {/* SVG dots */}
                             <path
                               d="M10.6666 15.6667C10.2064 15.6667 9.83337 15.2936 9.83337 14.8333C9.83337 14.3731 10.2064 14 10.6666 14C11.1269 14 11.5 14.3731 11.5 14.8333C11.5 15.2936 11.1269 15.6667 10.6666 15.6667Z"
                               fill="currentColor"
@@ -133,8 +133,78 @@ const Navbar = () => {
                               d="M10.6666 5.66666C10.2064 5.66666 9.83337 5.29357 9.83337 4.83334C9.83337 4.3731 10.2064 4 10.6666 4C11.1269 4 11.5 4.3731 11.5 4.83334C11.5 5.29357 11.1269 5.66666 10.6666 5.66666Z"
                               fill="currentColor"
                             ></path>
-
-                            {/* ...keeping all other SVG dot paths unchanged */}
+                            <path
+                              d="M13.1667 15.6667C12.7064 15.6667 12.3333 15.2936 12.3333 14.8333C12.3333 14.3731 12.7064 14 13.1667 14C13.6269 14 14 14.3731 14 14.8333C14 15.2936 13.6269 15.6667 13.1667 15.6667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M13.1667 5.66666C12.7064 5.66666 12.3333 5.29357 12.3333 4.83334C12.3333 4.3731 12.7064 4 13.1667 4C13.6269 4 14 4.3731 14 4.83334C14 5.29357 13.6269 5.66666 13.1667 5.66666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M13.1667 8.16666C12.7064 8.16666 12.3333 7.79358 12.3333 7.33334C12.3333 6.8731 12.7064 6.5 13.1667 6.5C13.6269 6.5 14 6.8731 14 7.33334C14 7.79358 13.6269 8.16666 13.1667 8.16666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M13.1667 13.1667C12.7064 13.1667 12.3333 12.7936 12.3333 12.3333C12.3333 11.8731 12.7064 11.5 13.1667 11.5C13.6269 11.5 14 11.8731 14 12.3333C14 12.7936 13.6269 13.1667 13.1667 13.1667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M15.6667 8.16666C15.2064 8.16666 14.8333 7.79358 14.8333 7.33334C14.8333 6.8731 15.2064 6.5 15.6667 6.5C16.1269 6.5 16.5 6.8731 16.5 7.33334C16.5 7.79358 16.1269 8.16666 15.6667 8.16666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M15.6667 13.1667C15.2064 13.1667 14.8333 12.7936 14.8333 12.3333C14.8333 11.8731 15.2064 11.5 15.6667 11.5C16.1269 11.5 16.5 11.8731 16.5 12.3333C16.5 12.7936 16.1269 13.1667 15.6667 13.1667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M15.6667 10.6667C15.2064 10.6667 14.8333 10.2936 14.8333 9.83334C14.8333 9.3731 15.2064 9 15.6667 9C16.1269 9 16.5 9.3731 16.5 9.83334C16.5 10.2936 16.1269 10.6667 15.6667 10.6667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M18.1667 10.6667C17.7064 10.6667 17.3333 10.2936 17.3333 9.83334C17.3333 9.3731 17.7064 9 18.1667 9C18.6269 9 19 9.3731 19 9.83334C19 10.2936 18.6269 10.6667 18.1667 10.6667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M1.5 15.6667C1.03975 15.6667 0.666748 15.2936 0.666748 14.8333C0.666748 14.3731 1.03975 14 1.5 14C1.96025 14 2.33337 14.3731 2.33337 14.8333C2.33337 15.2936 1.96025 15.6667 1.5 15.6667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M1.5 5.66666C1.03975 5.66666 0.666748 5.29357 0.666748 4.83334C0.666749 4.3731 1.03975 4 1.5 4C1.96025 4 2.33337 4.3731 2.33337 4.83334C2.33337 5.29357 1.96025 5.66666 1.5 5.66666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M4.00004 15.6667C3.5398 15.6667 3.16671 15.2936 3.16671 14.8333C3.16671 14.3731 3.5398 14 4.00004 14C4.46027 14 4.83337 14.3731 4.83337 14.8333C4.83337 15.2936 4.46027 15.6667 4.00004 15.6667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M4.00004 5.66666C3.5398 5.66666 3.16671 5.29357 3.16671 4.83334C3.16671 4.3731 3.5398 4 4.00004 4C4.46027 4 4.83337 4.3731 4.83337 4.83334C4.83337 5.29357 4.46027 5.66666 4.00004 5.66666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M4.00004 8.16666C3.5398 8.16666 3.16671 7.79358 3.16671 7.33334C3.16671 6.8731 3.5398 6.5 4.00004 6.5C4.46027 6.5 4.83337 6.8731 4.83337 7.33334C4.83337 7.79358 4.46027 8.16666 4.00004 8.16666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M4.00004 13.1667C3.5398 13.1667 3.16671 12.7936 3.16671 12.3333C3.16671 11.8731 3.5398 11.5 4.00004 11.5C4.46027 11.5 4.83337 11.8731 4.83337 12.3333C4.83337 12.7936 4.46027 13.1667 4.00004 13.1667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M6.50004 8.16666C6.0398 8.16666 5.66671 7.79358 5.66671 7.33334C5.66671 6.8731 6.0398 6.5 6.50004 6.5C6.96027 6.5 7.33337 6.8731 7.33337 7.33334C7.33337 7.79358 6.96027 8.16666 6.50004 8.16666Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M6.50004 13.1667C6.0398 13.1667 5.66671 12.7936 5.66671 12.3333C5.66671 11.8731 6.0398 11.5 6.50004 11.5C6.96027 11.5 7.33337 11.8731 7.33337 12.3333C7.33337 12.7936 6.96027 13.1667 6.50004 13.1667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M6.50004 10.6667C6.0398 10.6667 5.66671 10.2936 5.66671 9.83334C5.66671 9.3731 6.0398 9 6.50004 9C6.96027 9 7.33337 9.3731 7.33337 9.83334C7.33337 10.2936 6.96027 10.6667 6.50004 10.6667Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M9.00004 10.6667C8.5398 10.6667 8.16671 10.2936 8.16671 9.83334C8.16671 9.3731 8.5398 9 9.00004 9C9.46027 9 9.83337 9.3731 9.83337 9.83334C9.83337 10.2936 9.46027 10.6667 9.00004 10.6667Z"
+                              fill="currentColor"
+                            ></path>
                           </svg>
                         </div>
                       </div>
@@ -296,8 +366,9 @@ const Navbar = () => {
                     <div className="spacer-1-25rem"></div>
 
                     <h1 className="heading-style-h2">
+                      <span className="text-gradient-blue">Connecting</span>{" "}
                       <span className="text-gradient-grey">
-                        Connecting data nodes smartly
+                        data nodes smartly
                       </span>
                     </h1>
 
@@ -322,8 +393,8 @@ const Navbar = () => {
                             <div className="icon-embed-custom1 w-embed">
                               <svg
                                 className="arrow_svg"
-                                width="100%"
-                                height="100%"
+                                currentwidth=" 100%"
+                                currentheight=" 100%"
                                 viewBox="0 0 20 20"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -337,9 +408,76 @@ const Navbar = () => {
                                   fill="currentColor"
                                 />
                                 <path
+                                  d="M13.1667 15.6667C12.7064 15.6667 12.3333 15.2936 12.3333 14.8333C12.3333 14.3731 12.7064 14 13.1667 14C13.6269 14 14 14.3731 14 14.8333C14 15.2936 13.6269 15.6667 13.1667 15.6667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M13.1667 5.66666C12.7064 5.66666 12.3333 5.29357 12.3333 4.83334C12.3333 4.3731 12.7064 4 13.1667 4C13.6269 4 14 4.3731 14 4.83334C14 5.29357 13.6269 5.66666 13.1667 5.66666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M13.1667 8.16666C12.7064 8.16666 12.3333 7.79358 12.3333 7.33334C12.3333 6.8731 12.7064 6.5 13.1667 6.5C13.6269 6.5 14 6.8731 14 7.33334C14 7.79358 13.6269 8.16666 13.1667 8.16666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M13.1667 13.1667C12.7064 13.1667 12.3333 12.7936 12.3333 12.3333C12.3333 11.8731 12.7064 11.5 13.1667 11.5C13.6269 11.5 14 11.8731 14 12.3333C14 12.7936 13.6269 13.1667 13.1667 13.1667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M15.6667 8.16666C15.2064 8.16666 14.8333 7.79358 14.8333 7.33334C14.8333 6.8731 15.2064 6.5 15.6667 6.5C16.1269 6.5 16.5 6.8731 16.5 7.33334C16.5 7.79358 16.1269 8.16666 15.6667 8.16666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M15.6667 13.1667C15.2064 13.1667 14.8333 12.7936 14.8333 12.3333C14.8333 11.8731 15.2064 11.5 15.6667 11.5C16.1269 11.5 16.5 11.8731 16.5 12.3333C16.5 12.7936 16.1269 13.1667 15.6667 13.1667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M15.6667 10.6667C15.2064 10.6667 14.8333 10.2936 14.8333 9.83334C14.8333 9.3731 15.2064 9 15.6667 9C16.1269 9 16.5 9.3731 16.5 9.83334C16.5 10.2936 16.1269 10.6667 15.6667 10.6667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M18.1667 10.6667C17.7064 10.6667 17.3333 10.2936 17.3333 9.83334C17.3333 9.3731 17.7064 9 18.1667 9C18.6269 9 19 9.3731 19 9.83334C19 10.2936 18.6269 10.6667 18.1667 10.6667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M1.5 15.6667C1.03975 15.6667 0.666748 15.2936 0.666748 14.8333C0.666748 14.3731 1.03975 14 1.5 14C1.96025 14 2.33337 14.3731 2.33337 14.8333C2.33337 15.2936 1.96025 15.6667 1.5 15.6667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M1.5 5.66666C1.03975 5.66666 0.666748 5.29357 0.666748 4.83334C0.666749 4.3731 1.03975 4 1.5 4C1.96025 4 2.33337 4.3731 2.33337 4.83334C2.33337 5.29357 1.96025 5.66666 1.5 5.66666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M4.00004 15.6667C3.5398 15.6667 3.16671 15.2936 3.16671 14.8333C3.16671 14.3731 3.5398 14 4.00004 14C4.46027 14 4.83337 14.3731 4.83337 14.8333C4.83337 15.2936 4.46027 15.6667 4.00004 15.6667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M4.00004 5.66666C3.5398 5.66666 3.16671 5.29357 3.16671 4.83334C3.16671 4.3731 3.5398 4 4.00004 4C4.46027 4 4.83337 4.3731 4.83337 4.83334C4.83337 5.29357 4.46027 5.66666 4.00004 5.66666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M4.00004 8.16666C3.5398 8.16666 3.16671 7.79358 3.16671 7.33334C3.16671 6.8731 3.5398 6.5 4.00004 6.5C4.46027 6.5 4.83337 6.8731 4.83337 7.33334C4.83337 7.79358 4.46027 8.16666 4.00004 8.16666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M4.00004 13.1667C3.5398 13.1667 3.16671 12.7936 3.16671 12.3333C3.16671 11.8731 3.5398 11.5 4.00004 11.5C4.46027 11.5 4.83337 11.8731 4.83337 12.3333C4.83337 12.7936 4.46027 13.1667 4.00004 13.1667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M6.50004 8.16666C6.0398 8.16666 5.66671 7.79358 5.66671 7.33334C5.66671 6.8731 6.0398 6.5 6.50004 6.5C6.96027 6.5 7.33337 6.8731 7.33337 7.33334C7.33337 7.79358 6.96027 8.16666 6.50004 8.16666Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M6.50004 13.1667C6.0398 13.1667 5.66671 12.7936 5.66671 12.3333C5.66671 11.8731 6.0398 11.5 6.50004 11.5C6.96027 11.5 7.33337 11.8731 7.33337 12.3333C7.33337 12.7936 6.96027 13.1667 6.50004 13.1667Z"
+                                  fill="currentColor"
+                                />
+                                <path
+                                  d="M6.50004 10.6667C6.0398 10.6667 5.66671 10.2936 5.66671 9.83334C5.66671 9.3731 6.0398 9 6.50004 9C6.96027 9 7.33337 9.3731 7.33337 9.83334C7.33337 10.2936 6.96027 10.6667 6.50004 10.6667Z"
+                                  fill="currentColor"
+                                />
+                                <path
                                   d="M9.00004 10.6667C8.5398 10.6667 8.16671 10.2936 8.16671 9.83334C8.16671 9.3731 8.5398 9 9.00004 9C9.46027 9 9.83337 9.3731 9.83337 9.83334C9.83337 10.2936 9.46027 10.6667 9.00004 10.6667Z"
                                   fill="currentColor"
-                                  style={{ opacity: 0.062 }}
                                 />
                               </svg>
                             </div>
@@ -356,7 +494,7 @@ const Navbar = () => {
                   <div className="header_image-wrapper">
                     <img
                       loading="eager"
-                      src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/686f7b3d96a72698818289ba_smart-edge.avif"
+                      src={HomeImg2}
                       alt=""
                       className="feature_image"
                     />
@@ -394,7 +532,8 @@ const Navbar = () => {
                       transform: "translate(0px, 0px)",
                     }}
                   >
-                    <span className="text-gradient-grey">The Origin Story</span>
+                    <span className="text-gradient-grey">Our </span>{" "}
+                    <span className="text-gradient-blue">Purpose</span>
                   </h2>
                   <div className="spacer-large"></div>
                   <p
@@ -408,19 +547,22 @@ const Navbar = () => {
                       transform: "translate(0px, 0px)",
                     }}
                   >
-                    We didn’t start with a product. We started with a
-                    frustration. Members of our founding team spent years inside
-                    some of the most advanced security platforms in the world.
-                    We saw how hard it was to get clean, reliable data into the
-                    right tools. We watched teams waste time firefighting
-                    pipelines, managing duct-tape connectors, and paying too
-                    much for data they barely used. It wasn’t a visibility
-                    issue. It was an architecture issue.
+                    Our purpose is to define a clear strategy and structure for
+                    the CroneX Tech corporate website—built to reflect our
+                    identity as a cutting-edge IT, Cloud, and AI service
+                    provider with deep expertise in FinTech. This platform will
+                    highlight our specialization across Mutual Funds, Stock
+                    Markets, Insurance, and transaction-driven systems, while
+                    delivering a seamless digital experience aligned with our
+                    technological excellence.
                   </p>
                   <div className="spacer-large"></div>
-                  <div
+                </div>
+              </div>
+              <div className="about_story_component">
+                <div className="text-align-center">
+                  <h2
                     slide-in=""
-                    className="heading-style-h5"
                     style={{
                       translate: "none",
                       rotate: "none",
@@ -429,9 +571,9 @@ const Navbar = () => {
                       transform: "translate(0px, 0px)",
                     }}
                   >
-                    <span className="text-gradient-grey">So we built</span>{" "}
-                    <span className="text-gradient-blue-3">DataBahn.</span>
-                  </div>
+                    <span className="text-gradient-grey">Our </span>{" "}
+                    <span className="text-gradient-blue">Vision</span>
+                  </h2>
                   <div className="spacer-large"></div>
                   <p
                     slide-in=""
@@ -444,12 +586,57 @@ const Navbar = () => {
                       transform: "translate(0px, 0px)",
                     }}
                   >
-                    A platform that does the hard stuff - ingestion, enrichment,
-                    governance, AI readiness - without making you reinvent the
-                    wheel. Something precise, fast, and built to last. Because
-                    we’ve been in the seat. And we knew there had to be a better
-                    way.
+                    Our vision is to create a high-impact, visually stunning,
+                    and animation-rich digital presence that positions CroneX
+                    Tech as a premium global IT services leader. We aim to build
+                    a website that inspires confidence, showcases our FinTech
+                    mastery, and elevates our brand with modern design,
+                    innovation, and credibility.
                   </p>
+                  <div className="spacer-large"></div>
+                </div>
+              </div>
+              <div className="about_story_component">
+                <div className="text-align-center">
+                  <h2
+                    slide-in=""
+                    style={{
+                      translate: "none",
+                      rotate: "none",
+                      scale: "none",
+                      opacity: 1,
+                      transform: "translate(0px, 0px)",
+                    }}
+                  >
+                    <span className="text-gradient-grey">Our </span>{" "}
+                    <span className="text-gradient-blue">Goals</span>
+                  </h2>
+                  <div className="spacer-large"></div>
+                  <p
+                    slide-in=""
+                    className="text-size-medium"
+                    style={{
+                      translate: "none",
+                      rotate: "none",
+                      scale: "none",
+                      opacity: 1,
+                      transform: "translate(0px, 0px)",
+                    }}
+                  >
+                    Our goal is to establish a powerful digital presence that
+                    builds trust, showcases our capabilities, and drives
+                    meaningful client engagement. Through this website, we aim
+                    to become the central destination for service inquiries,
+                    lead generation, and upcoming webinars. We are focused on
+                    strengthening CroneX Tech’s brand identity, enhancing online
+                    visibility, and presenting our proven expertise through
+                    detailed FinTech case studies, team insights, and real-world
+                    success stories. Ultimately, our goal is to create a
+                    platform that converts visitors into long-term partners by
+                    clearly demonstrating our value, innovation, and industry
+                    leadership.
+                  </p>
+                  <div className="spacer-large"></div>
                 </div>
               </div>
             </div>
