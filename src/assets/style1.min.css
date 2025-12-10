@@ -4795,7 +4795,11 @@ figcaption {
   position: relative;
   overflow: hidden;
 }
-
+.faq_component .faq_question span{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
 .section_why {
   background-color: #080d16;
 }

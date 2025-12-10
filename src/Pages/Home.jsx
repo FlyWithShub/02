@@ -578,7 +578,7 @@ const Home = () => {
                     <div className="navbar_button is-base">
                       <a
                         data-wf--button-primary--variant="base"
-                        href="/book-a-demo"
+                        href="#"
                         className="button-primary w-inline-block"
                       >
                         <div className="button_content">
@@ -684,7 +684,7 @@ const Home = () => {
                     <div className="navbar_button is-alternate">
                       <a
                         data-wf--button-secondary--variant="alternate"
-                        href="/book-a-demo"
+                        href="#"
                         className="button-secondary w-variant-50b92dba-0048-4c60-e748-9428bdc750ca w-inline-block"
                       >
                         <div className="button-secondary_content w-variant-50b92dba-0048-4c60-e748-9428bdc750ca">
@@ -13047,7 +13047,7 @@ const Home = () => {
                       </div>
                       <div className="spacer-large"></div>
 
-                      <div className="footer_certifications_list">
+                      <div className="footer_certifications_list" style={{display:"none"}}>
                           <img
                             src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/684ab6e81354be003468dbb7_Badge.svg"
                             alt=""
@@ -13176,7 +13176,7 @@ const Home = () => {
                         <div className="navbar_button is-alternate">
                           <a
                             data-wf--button-secondary--variant="alternate"
-                            href="/book-a-demo"
+                            href="#"
                             className="button-secondary w-variant-50b92dba-0048-4c60-e748-9428bdc750ca w-inline-block"
                           >
                             <div className="button-secondary_content w-variant-50b92dba-0048-4c60-e748-9428bdc750ca">
