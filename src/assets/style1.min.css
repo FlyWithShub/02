@@ -16300,6 +16300,17 @@ span.MuiAccordionSummary-content.Mui-expanded.MuiAccordionSummary-contentGutters
   align-items: center;
   gap: 10px;
 }
+ @keyframes light {
+                  from {
+                  width: 25rem;
+                  }
+                  to {
+                  width: 0rem;
+                  }
+                  }
+                  .data-fabrics_tabs_light {
+                  animation: light 2s ease-in-out infinite alternate;;
+                  }
 @keyframes twinkle {
 
   0%,
