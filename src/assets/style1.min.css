@@ -16292,6 +16292,9 @@ span.MuiAccordionSummary-content.Mui-expanded.MuiAccordionSummary-contentGutters
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+.usecases_solutions_item:hover .usecases_solutions_glow {
+  opacity: 1;
+  }
 .social-mediaDiv{
   display: flex;
   align-items: center;
