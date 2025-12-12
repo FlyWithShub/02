@@ -17,6 +17,7 @@ const Footer = () => {
                         to="/"
                         className="footer_logo-link w-inline-block"
                       >
+                        
                         <img
                           src={mainLogo}
                           alt=""
