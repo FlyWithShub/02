@@ -1,107 +1,136 @@
 import React from "react";
-import { AboutImg, HomeVid3 } from "../Components/Image";
-import AboutComponent from "../Components/About";
-import Achievements from "../Components/Achievements";
 
-const About = () => {
+const Contact = () => {
   return (
     <>
-      <main className="main-wrapper">
-        <header className="section_header">
-          <div className="background-border_wrapper">
-            <img
-              loading="lazy"
-              src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ff857be08695343437f37f_product_hero_left_Box.avif"
-              alt=""
-              className="background-border_left"
-            />
-            <img
-              loading="lazy"
-              src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ff857b97f89d74677594e7_product_hero_right_box.avif"
-              alt=""
-              className="backhground_border_right"
-            />
-          </div>
-          <div className="padding-global">
-            <div className="container-large">
-              <div className="header_component">
-                <div className="padding-section-small">
-                  <div className="w-layout-grid header_content _1-5-1">
-                    <div className="header_content-left">
-                      <div
-                        slide-in-header=""
-                        className="tag"
-                        style={{
-                          opacity: 1,
-                          visibility: "inherit",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px, 0px)",
-                        }}
-                      >
-                        Innovation. Intelligence. Impact.
-                      </div>
-                      <div className="spacer-1-25rem"></div>
-                      <h1
-                        slide-in-header=""
-                        className="heading-style-h3 z-index-1"
-                        style={{
-                          opacity: 1,
-                          visibility: "inherit",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px, 0px)",
-                        }}
-                      >
-                        <span className="text-gradient-grey"> The Core of</span>{" "}
-                        <span className="text-gradient-blue">croneX Tech</span>
-                      </h1>
-                      <div className="spacer-xsmall"></div>
-                      <p
-                        slide-in-header=""
-                        className="text-size-medium"
-                        style={{
-                          opacity: 1,
-                          visibility: "inherit",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px, 0px)",
-                        }}
-                      >
-                        croneX Tech is a premier IT, Cloud, and AI solutions
-                        provider, specializing in FinTech innovations across
-                        Mutual Funds, Stock Market, Insurance, and Transaction
-                        Systems. With a team of industry experts and
-                        cutting-edge technologies, we deliver scalable, secure,
-                        and intelligent solutions that empower businesses to
-                        thrive in the digital era. Our commitment to excellence,
-                        innovation, and client success positions croneX Tech as
-                        a trusted partner for organizations seeking
-                        transformative FinTech solutions globally.
+      <div className="background-border_wrapper">
+        <img
+          loading="lazy"
+          alt=""
+          className="background-border_left"
+          src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ff857be08695343437f37f_product_hero_left_Box.avif"
+        />
+        <img
+          loading="lazy"
+          alt=""
+          className="backhground_border_right"
+          src="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/67ff857b97f89d74677594e7_product_hero_right_box.avif"
+        />
+      </div>
+
+      <section className="section_home_platform">
+        <div className="padding-global">
+          <div className="container-large">
+            <div className="padding-section-medium">
+              <div className="home_platform_component">
+                <div className="max-width-xlarge align-center">
+                  <div className="text-align-center">
+                    <h2 className="heading-style-h3">
+                      <span className="text-gradient-grey">
+                        Get in Touch with
+                      </span>
+                      <span className="text-gradient-blue"> croneX Tech</span>
+                    </h2>
+                    <div className="spacer-xsmall"></div>
+                    <div>
+                      <p className="text-size-large">
+                        We’re here to help you transform your FinTech vision
+                        into reality. Whether you have questions, want to
+                        explore our services, or discuss a custom solution, our
+                        team is ready to assist.
                       </p>
-                      <div className="spacer-large"></div>
-                      <div
-                        slide-in-header=""
-                        className="button-group"
-                        style={{
-                          opacity: 1,
-                          visibility: "inherit",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px, 0px)",
-                        }}
-                      >
+                    </div>
+                  </div>
+                </div>
+                <div className="spacer-large"></div>
+                <div className="contactRow">
+                  <div className="demo_content-left">
+                    <div className="">
+                      <div className="demo_heading-wrapper">
+                        <h1 className="heading-style-h4 z-index-1">
+                          <span className="text-gradient-grey">
+                            You’re minutes away from
+                          </span>{" "}
+                          <span className="text-gradient-blue">
+                            smarter data control.
+                          </span>
+                        </h1>
+                        <div className="spacer-xsmall"></div>
+                        <p className="text-size-medium">
+                          Reach out to croneX Tech today and let’s start
+                          building innovative, secure, and high-impact IT
+                          solutions together.
+                          <br />
+                          <br />
+                          <strong className="text-weight-medium text-size-xlarge">
+                            In this personalized workshop, you’ll see:{" "}
+                          </strong>
+                          <br />
+                        </p>
+                        <ul role="list">
+                          <li>
+                            <span className="text-span">
+                              <strong className="text-color-blue">
+                                Phone Number:
+                              </strong>{" "}
+                              +91 94070 84533 <br />{" "}
+                            </span>
+                          </li>
+                          <li>
+                            <span className="text-span">
+                              <strong className="text-color-blue">
+                                Offical Email:
+                              </strong>{" "}
+                              info@cronextech.com
+                            </span>
+                          </li>
+                          <li>
+                            <span className="text-span">
+                              <strong className="text-color-blue">
+                                Office Address
+                              </strong>{" "}
+                              Scheme No 54, Vijay Nagar, Indore - 452010
+                            </span>
+                          </li>
+                        </ul>
+                        <div className="spacer-large"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div slide-in="" className="why_item">
+                    <a href="#" className="why_item-link contactFormDiv">
+                      <form action="#">
+                        <div className="formRow">
+                          <div className="formInput">
+                            <label htmlFor="">First Name</label>
+                            <input type="text" />
+                          </div>
+                          <div className="formInput">
+                            <label htmlFor="">Last Name</label>
+                            <input type="text" />
+                          </div>
+                        </div>
+                        <div className="formInput">
+                          <label htmlFor="">Mobile Number</label>
+                          <input type="text" />
+                        </div>
+                        <div className="formInput">
+                          <label htmlFor="">Email Address</label>
+                          <input type="text" />
+                        </div>
+                        <div className="formInput">
+                          <label htmlFor="">Message</label>
+                          <textarea name="" id=""></textarea>
+                        </div>
                         <a
                           data-wf--button-primary--variant="base"
+                          aria-current="page"
+                          className="button-primary w-inline-block active w--current"
                           href="/contact"
-                          className="button-primary w-inline-block"
+                          data-discover="true"
                         >
                           <div className="button_content">
-                            <div className="text-size-regular">Book a Demo</div>
+                            <div className="text-size-regular">Submit</div>
                             <div className="arrow">
                               <div className="icon-embed-custom1 w-embed">
                                 <svg
@@ -199,39 +228,17 @@ const About = () => {
                           <div className="button-primary_pattern"></div>
                           <div className="button-primary_border"></div>
                         </a>
-                      </div>
-                    </div>
-                    <div
-                      slide-in-header=""
-                      className="header_image-wrapper"
-                      style={{
-                        opacity: 1,
-                        visibility: "inherit",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px, 0px)",
-                      }}
-                    >
-                      <img
-                        sizes="(max-width: 801px) 100vw, 801px"
-                        src={AboutImg}
-                        loading="eager"
-                        className="feature_image"
-                      />
-                    </div>
+                      </form>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </header>
-
-        <AboutComponent />
-        <Achievements />
-      </main>
+        </div>
+      </section>
     </>
   );
 };
 
-export default About;
+export default Contact;

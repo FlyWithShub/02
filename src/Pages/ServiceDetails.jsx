@@ -1,6 +1,15 @@
 import React from "react";
+import { NavLink, useParams } from "react-router-dom";
+import { ServiceData } from "../Data/ServiceData";
 
 const ServiceDetails = () => {
+  const { slug } = useParams();
+  const service = ServiceData.find((b) => b.slug === slug);
+
+  if (!service) {
+    return <h2>Service not found!</h2>;
+  }
+
   return (
     <>
       <main className="main-wrapper">
@@ -37,7 +46,7 @@ const ServiceDetails = () => {
                           transform: "translate(0px, 0px)",
                         }}
                       >
-                        SIEM Cost Reduction
+                        FinTech
                       </div>
                       <div className="spacer-1-25rem"></div>
                       <h1
@@ -52,12 +61,10 @@ const ServiceDetails = () => {
                           transform: "translate(0px, 0px)",
                         }}
                       >
+                        <span className="text-gradient-grey">Our</span>
                         <span className="text-gradient-blue">
-                          Cut SIEM costs by 50%
-                        </span>
-                        <span className="text-gradient-grey">
                           {" "}
-                          while maintaining security visibility
+                          {service.title}
                         </span>
                       </h1>
                       <div className="spacer-xsmall"></div>
@@ -73,10 +80,7 @@ const ServiceDetails = () => {
                           transform: "translate(0px, 0px)",
                         }}
                       >
-                        Optimize your security data pipeline with DataBahn's
-                        intelligent data fabric solution that routes only
-                        high-quality, security-relevant data to your SIEM while
-                        preserving complete visibility and compliance.
+                        {service.content}
                       </p>
                       <div className="spacer-large"></div>
                       <div
@@ -93,7 +97,7 @@ const ServiceDetails = () => {
                       >
                         <a
                           data-wf--button-primary--variant="base"
-                          href="#CTA-section"
+                          href="#"
                           className="button-primary w-inline-block"
                         >
                           <div className="button_content">
@@ -217,7 +221,7 @@ const ServiceDetails = () => {
                         </a>
                         <a
                           data-wf--button-secondary--variant="base"
-                          href="https://cdn.prod.website-files.com/67eb571d0fe797071c2c2759/6840316a05db7f19f084a009_SIEM%20Ops%20-%20SIEM%20Cost%20Reduction.pdf"
+                          href="#"
                           className="button-secondary w-inline-block"
                           data-lf-fd-inspected-belvo73v0aq8zmqj="true"
                         >
@@ -320,7 +324,7 @@ const ServiceDetails = () => {
                           <div className="max-width-large-copy">
                             <h2 slide-i="">
                               <span className="text-gradient-grey">
-                                Security Data Fabric in action
+                                All FinTech-Specific Development
                               </span>
                             </h2>
                           </div>
@@ -329,11 +333,12 @@ const ServiceDetails = () => {
                             slide-i=""
                             className="text-size-large text-color-secondary"
                           >
-                            With DataBahn, we've helped teams automate data
-                            integration, management, and optimization–saving
-                            millions in costs and countless hours. Now it's your
-                            turn to streamline your data and unlock the value of
-                            your data faster.
+                            croneX Tech delivers end-to-end FinTech development
+                            solutions tailored to the unique needs of financial
+                            institutions, investment platforms, and insurance
+                            providers. Our expertise covers Mutual Funds, Stock
+                            Market platforms, Insurance systems, and secure
+                            Transaction Management applications.
                           </p>
                         </div>
                       </div>

@@ -1,8 +1,26 @@
-import React from "react";
-import { mainLogo } from "../Components/Image";
+import { useEffect, useState } from "react";
+import { mainLogo, Whatsapp } from "../Components/Image";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const [showWhatsApp, setShowWhatsApp] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 600) {
+        setShowWhatsApp(true);
+      } else {
+        setShowWhatsApp(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <footer className="footer_component">
@@ -17,7 +35,6 @@ const Footer = () => {
                         to="/"
                         className="footer_logo-link w-inline-block"
                       >
-                        
                         <img
                           src={mainLogo}
                           alt=""
@@ -128,7 +145,6 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  {/* Right Menu Section */}
                   <div className="footer_menu-wrapper">
                     <div>
                       <div className="text-size-small text-weight-medium text-style-allcaps">
@@ -138,54 +154,60 @@ const Footer = () => {
 
                       <div className="footer_link-list">
                         <NavLink
-                          to="#"
+                          to="/service/finTech-specific"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           FinTech-Specific
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/service/software-development"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Software Dev
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="service/web-app-development"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Web Application
                         </NavLink>
 
                         <NavLink
-                          to="#"
+                          to="service/cloud-solutions"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Cloud Solutions
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/service/cybersecurity"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Cybersecurity
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/service/digital-marketing"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Digital Marketing
                         </NavLink>
 
                         <NavLink
-                          to="#"
+                          to="/service/ai-services"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           AI Services
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/service/salesforce-development"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Salesforce
+                        </NavLink>
+                        <NavLink
+                          to="/service/zoho-development"
+                          className="text-style-link text-weight-semibold text-color-primary"
+                        >
+                          Zoho Development
                         </NavLink>
                       </div>
                     </div>
@@ -204,25 +226,25 @@ const Footer = () => {
                           Home
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/about"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           About Us
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/projects"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Projects
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/blogs"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Blogs
                         </NavLink>
                         <NavLink
-                          to="#"
+                          to="/contact"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
                           Contact Us
@@ -238,22 +260,22 @@ const Footer = () => {
 
                       <div className="footer_link-list">
                         <NavLink
-                          to="#"
+                          to="https://api.whatsapp.com/send?phone=919407084533"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
-                          +91 88270 57950
+                          +91 94070 84533
                         </NavLink>
                         <NavLink
                           to="#"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
-                          shubhjeetchakraborty@gmail.com
+                          info@cronextech.com
                         </NavLink>
                         <NavLink
                           to="#"
                           className="text-style-link text-weight-semibold text-color-primary"
                         >
-                          123 Vijay Nagar Indore 452010
+                          Scheme No 54, Vijay Nagar, Indore - 452010
                         </NavLink>
                       </div>
                     </div>
@@ -263,14 +285,14 @@ const Footer = () => {
                 <div className="footer_bottom-wrapper">
                   <div className="text-color-tertiary text-size-regular">
                     Copyright © <span className="footer_credit-year">2025</span>{" "}
-                    CroneX Tech All rights reserved.
+                    croneX Tech All rights reserved.
                   </div>
 
                   <div className="footer_legal-list">
-                    <NavLink to="#" className="text-style-link">
+                    <NavLink to="/terms-condition" className="text-style-link">
                       Terms of Service
                     </NavLink>
-                    <NavLink to="#" className="text-style-link">
+                    <NavLink to="/privacy-policy" className="text-style-link">
                       Privacy Policy
                     </NavLink>
                     <NavLink to="#" className="text-style-link">
@@ -293,6 +315,16 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      {showWhatsApp && (
+        <a
+          href="https://api.whatsapp.com/send?phone=919407084533"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-float"
+        >
+          <img src={Whatsapp} alt="WhatsApp" />
+        </a>
+      )}
     </>
   );
 };

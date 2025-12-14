@@ -25,13 +25,13 @@ const Header = () => {
                 aria-current="page"
                 className="navbar_logo-link w-nav-brand w--current"
               >
-                {/* <img
+                <img
                   sizes="(max-width: 479px) 98vw, (max-width: 767px) 99vw, (max-width: 1024px) 100vw, 1024px"
                   alt=""
                   src={mainLogo}
                   loading="lazy"
                   className="navbar_logo is-base"
-                /> */}
+                />
               </NavLink>
               <nav role="navigation" className="navbar_menu w-nav-menu">
                 <div className="navbar_menu-links">
@@ -76,7 +76,53 @@ const Header = () => {
                       />
                       <div className="navbar_dropdown-link-list is-2col">
                         <NavLink
-                          to="/"
+                          to="/service/finTech-specific"
+                          className="navbar_dropdown-link w-inline-block"
+                        >
+                          <div className="navbar_icon-wrapper">
+                            <div className="icon-embed-xsmall w-embed">
+                              <svg
+                                currentwidth="currentwidth"
+                                currentheight="currentheight"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
+                                  d="M20.73 7.12L20.59 6.87C20.4094 6.56769 20.1547 6.31643 19.85 6.14L13.14 2.27C12.8362 2.09375 12.4913 2.00062 12.14 2H11.85C11.4987 2.00062 11.1538 2.09375 10.85 2.27L4.14 6.15C3.83697 6.32526 3.58526 6.57697 3.41 6.88L3.27 7.13C3.09375 7.43384 3.00062 7.77874 3 8.13V15.88C3.00062 16.2313 3.09375 16.5762 3.27 16.88L3.41 17.13C3.58979 17.4295 3.84049 17.6802 4.14 17.86L10.86 21.73C11.1623 21.9099 11.5082 22.0033 11.86 22H12.14C12.4913 21.9994 12.8362 21.9063 13.14 21.73L19.85 17.85C20.156 17.6787 20.4087 17.426 20.58 17.12L20.73 16.87C20.9041 16.5653 20.9971 16.221 21 15.87V8.12C20.9994 7.76874 20.9063 7.42384 20.73 7.12ZM11.85 4H12.14L18 7.38L12 10.84L6 7.38L11.85 4ZM13 19.5L18.85 16.12L19 15.87V9.11L13 12.58V19.5Z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                          <div className="navbar_text-wrapper">
+                            <div className="text-size-small">
+                              FinTech-Specific
+                            </div>
+                          </div>
+                          <div className="icon-embed-xxsmall hide w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlnsXlink="http://www.w3.org/1999/xlink"
+                              aria-hidden="true"
+                              role="img"
+                              className="iconify iconify--ic"
+                              currentwidth="100%"
+                              currentheight="100%"
+                              preserveAspectRatio="xMidYMid meet"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill="currentColor"
+                                d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01"
+                              ></path>
+                            </svg>
+                          </div>{" "}
+                        </NavLink>
+                        <NavLink
+                          to="/service/software-development"
                           className="navbar_dropdown-link w-inline-block"
                         >
                           <div className="navbar_icon-wrapper">
@@ -122,7 +168,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/web-app-development"
                           className="navbar_dropdown-link w-inline-block"
                         >
                           <div className="navbar_icon-wrapper">
@@ -168,7 +214,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/custom-software-development"
                           className="navbar_dropdown-link w-inline-block"
                         >
                           <div className="navbar_icon-wrapper">
@@ -214,7 +260,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/cloud-solutions"
                           className="navbar_dropdown-link w-inline-block"
                         >
                           <div className="navbar_icon-wrapper">
@@ -260,7 +306,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/cybersecurity"
                           className="navbar_dropdown-link w-inline-block"
                         >
                           <div className="navbar_icon-wrapper">
@@ -304,7 +350,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/digital-marketing"
                           target="_blank"
                           className="navbar_dropdown-link w-inline-block"
                         >
@@ -351,7 +397,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/migration-services"
                           target="_blank"
                           className="navbar_dropdown-link w-inline-block"
                         >
@@ -398,7 +444,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/ai-services"
                           className="navbar_dropdown-link w-inline-block"
                         >
                           <div className="navbar_icon-wrapper">
@@ -442,7 +488,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/salesforce-development"
                           target="_blank"
                           className="navbar_dropdown-link w-inline-block"
                         >
@@ -489,7 +535,7 @@ const Header = () => {
                           </div>{" "}
                         </NavLink>
                         <NavLink
-                          to="/"
+                          to="/service/zoho-development"
                           target="_blank"
                           className="navbar_dropdown-link w-inline-block"
                         >
@@ -538,10 +584,10 @@ const Header = () => {
                       </div>
                     </nav>
                   </div>
-                  <NavLink to="/" className="navbar_link">
+                  <NavLink to="/projects" className="navbar_link">
                     Projects
                   </NavLink>
-                  <NavLink to="/" className="navbar_link">
+                  <NavLink to="/blogs" className="navbar_link">
                     Blogs
                   </NavLink>
                 </div>
@@ -549,7 +595,7 @@ const Header = () => {
                   <div className="navbar_button is-base">
                     <NavLink
                       data-wf--button-primary--variant="base"
-                      to="/"
+                      to="/contact"
                       className="button-primary w-inline-block"
                     >
                       <div className="button_content">
@@ -655,7 +701,7 @@ const Header = () => {
                   <div className="navbar_button is-alternate">
                     <NavLink
                       data-wf--button-secondary--variant="alternate"
-                      to="/"
+                      to="/contact"
                       className="button-secondary w-variant-50b92dba-0048-4c60-e748-9428bdc750ca w-inline-block"
                     >
                       <div className="button-secondary_content w-variant-50b92dba-0048-4c60-e748-9428bdc750ca">
