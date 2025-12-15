@@ -16446,11 +16446,7 @@ content: "";
 .projectGrid .projectHeading p{
   padding: 15px 0;
 }
-.projectGrid .projectHeading ul li{
-}
-.projectGrid .projectHeading ul{
 
-}
 .projectGrid .projectHeading h6{
 display: flex;
     align-items: center;
@@ -16466,6 +16462,7 @@ display: flex;
 }
 .projectGrid{
   display: flex;
+      flex-wrap: wrap;
   align-items: start;
   justify-content: space-between;
   margin-bottom: 150px;
@@ -16567,6 +16564,15 @@ display: flex;
 .contactRow .demo_content-left{
 width: 100%;
 }
+
+.projectGrid .projectHeading{
+  width: 108%;
+          position: unset;
 }
-
-
+.projectGrid .projectCard{
+  width: 100%;
+}
+.projectGrid{
+  margin-bottom: 50px;
+}
+}
